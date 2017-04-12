@@ -1,0 +1,41 @@
+#ifndef _MSGDEF_RSCMSG_H
+#define _MSGDEF_RSCMSG_H
+
+#include "msgdatadef.h"
+
+const UINT RSC_MESSAGE_TYPE=12;
+//RSC_REQUEST - RSC_RESPONSE 请求-响应 模式
+//RSC_MESSAGE 单请求模式，没有响应
+
+class TRscMsgHdr: public TCtrlMsg
+{
+public:
+	UINT	code;		//ActionCode/RespCode（请求的请求动作，或响应的响应码，取值由应用自行定义）
+	CStr	ruri;		//ResourceUIR/RequestURI（资源标识，一般是 /xxx/xxx等，或是最终用户标识等）
+	CStr	consumer;	//Resource User/Subscriber/Publisher/FromUser（资源的使用者）
+	CStr	producer;	//Resource Provider/Register/Notifier/ToUser（资源的提供者）
+	TURI	host;		//dest domain（目标的主机，或请求地址，可以认为是目标地址或域名；第一次发请求的时候，应该设置为目标地址或链路id，后继发送请求或响应的时候，应该拷贝收到的请求或响应的host字段，作为目标host）如：tcp://user@192.168.55.112:5556，link://user@1 等
+	CStr 	rid;		//ResourceID，EventID，SubscribeID，or CallID（根据模式不同，可设置不同含义，一般应当唯一）
+
+%{
+	virtual UINT  getSessionId(CStr& sid) 
+	{ 
+		if(!hasSessionId()) return 0;
+		sid=rid;
+		return 1;
+	}
+	// in order to use sessionid
+	// must setSessionId() first
+%}
+};
+
+class TRscMsgBody: public TMsgBody
+{
+public:
+	CStr	rsc;		//Resource Info
+}=
+RSC_REQUEST(120)|
+RSC_RESPONSE(121)|
+RSC_MESSAGE(122);
+
+#endif

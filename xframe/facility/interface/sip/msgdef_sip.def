@@ -1,0 +1,33 @@
+#ifndef _MSGDEF_SIPMSG_H
+#define _MSGDEF_SIPMSG_H
+
+#include "msgconstdef_sip.h"
+#include "msghelper_sip.h"
+#include "msgdef.h"
+
+
+const UINT SIP_MESSAGE_TYPE=21;
+
+class TSipCtrlMsg:public TCtrlMsg
+{
+public:
+	ULONG          transid;		//如果是TCP/TLS等连接，指向连接的fd，如果是udp，指向监听端口的fd
+	SIPMETHODTYPE  method;
+	INT            status;
+	SIPMETHODTYPE  rsp_method;
+	INT	   needprack;
+	INT	   sub_status;
+	CStr           dialogid;
+};
+
+
+class TSipMsg:public TMsgBody
+{
+public:
+
+	CStr	 sipMsg;
+}=
+SIP_MESSAGE_REQ(210)|
+SIP_MESSAGE_RSP(211);
+
+#endif

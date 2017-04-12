@@ -1,0 +1,27 @@
+#ifndef _MSGDEF_COMMSG_H
+#define _MSGDEF_COMMSG_H
+
+const UINT COM_MESSAGE_TYPE=10;
+
+const INT MAX_MSG_ARGV_NUM = 5;
+
+class TComMsgHdr: public TCtrlMsg
+{
+public:
+	INT		status;		//ActCode/ReplyStatus  动作码或响应码
+	INT		pri;		//Priority 优先级，或可以进行其他转义
+	INT 	facility;	//relation/facility 使用的设施
+	INT		argc;		//arg count 参数数量；或可以进行其他转义
+	CStr	argv[MAX_MSG_ARGV_NUM];		//arg value 参数取值，空格间断；或可以进行其他转义
+};
+
+class TComMsgBody: public TMsgBody
+{
+public:
+    CStr	info;
+}=
+COM_MESSAGE_REQ(100)|
+COM_MESSAGE_RSP(101)|
+COM_MESSAGE_TMP(102);
+
+#endif

@@ -1,0 +1,292 @@
+[2017-03-15_21:52:37] [clientPsaTask]INFO:[../../task/psathread.C:40] ###select::result: 102: 0
+[2017-03-15_21:52:37] [clientPsaTask]INFO:[../../task/psathread.C:40] ###select::result: 102: 0
+[2017-03-15_21:52:38] [clientPsaTask]INFO:[../../task/psathread.C:40] ###select::result: 102: 0
+[2017-03-15_21:52:39] [clientPsaTask]INFO:[../../task/psathread.C:40] ###select::result: 102: 0
+[2017-03-15_21:52:39] [clientPsaTask]INFO:[mqttclienttask.C:115] calling MqttClientTask::onTimeOut method
+[2017-03-15_21:52:39] [clientPsaTask]INFO:[comserv/socket.C:1947] Open client socket succeed. remoteAddr: 127.0.0.1:9002. clientPort: 0.  sock_fd: 6
+[2017-03-15_21:52:39] [clientPsaTask]INFO:[../../task/psathread.C:40] ###select::result: 102: 1
+[2017-03-15_21:52:39] [clientPsaTask]INFO:[../../facility/psamqtt-wangpan/mqttclient.C:328] CMqttClientTcpLink::processSend method being called
+[2017-03-15_21:52:39] [clientPsaTask]INFO:[../../facility/psamqtt-wangpan/mqttclient.C:331] CMqttClientTcpLink::processSend method being called with data
+[2017-03-15_21:52:39] [clientPsaTask]INFO:[../../facility/psamqtt-wangpan/mqttclient.C:337] CMqttClientTcpLink::processSend after stateMachine
+[2017-03-15_21:52:39] [clientPsaTask]INFO:[../../facility/psamqtt-wangpan/mqttclient.C:345] CMqttClientTcpLink::processSend after pointer casting
+[2017-03-15_21:52:39] [clientPsaTask]INFO:[../../facility/psamqtt-wangpan/mqttlink.C:796] send connect message
+[2017-03-15_21:52:40] [clientPsaTask]INFO:[../../task/psathread.C:40] ###select::result: 102: 2
+[2017-03-15_21:52:40] [clientPsaTask]INFO:[../../facility/psamqtt-wangpan/mqttclient.C:328] CMqttClientTcpLink::processSend method being called
+[2017-03-15_21:52:40] [clientPsaTask]INFO:[../../facility/psamqtt-wangpan/mqttclient.C:331] CMqttClientTcpLink::processSend method being called with data
+[2017-03-15_21:52:40] [clientPsaTask]ERROR:[statemachine.C:39] ###ERRRO:trying to send a publish while not in CONNECTED_STATE
+[2017-03-15_21:52:40] [clientPsaTask]INFO:[../../facility/psamqtt-wangpan/mqttclient.C:337] CMqttClientTcpLink::processSend after stateMachine
+[2017-03-15_21:52:40] [clientPsaTask]INFO:[../../facility/psamqtt-wangpan/mqttclient.C:525] CMqttClientTcpLink::processRecv method being called
+[2017-03-15_21:52:40] [clientPsaTask]INFO:[../../facility/psamqtt-wangpan/mqttlink.C:712] received connack message: 0
+[2017-03-15_21:52:40] [clientPsaTask]INFO:[../../facility/psamqtt-wangpan/mqttlink.C:335] CMqttLink::responseService before protocolLogic
+[2017-03-15_21:52:40] [clientPsaTask]INFO:[../../facility/psamqtt-wangpan/mqttclient.C:598] CMqttClientTcpLink::protocolLogic before calling sendToTask
+[2017-03-15_21:52:40] [clientPsaTask]INFO:[../../facility/psamqtt-wangpan/mqttlink.C:337] CMqttLink::responseService after protocolLogic
+[2017-03-15_21:52:40] [clientPsaTask]ERROR:[../../facility/psamqtt-wangpan/mqttlink.C:100] CMqttLink::msgParse, message length = 0
+[2017-03-15_21:52:41] [clientPsaTask]INFO:[../../task/psathread.C:40] ###select::result: 102: 1
+[2017-03-15_21:52:41] [clientPsaTask]INFO:[../../facility/psamqtt-wangpan/mqttclient.C:328] CMqttClientTcpLink::processSend method being called
+[2017-03-15_21:52:41] [clientPsaTask]INFO:[../../facility/psamqtt-wangpan/mqttclient.C:331] CMqttClientTcpLink::processSend method being called with data
+[2017-03-15_21:52:41] [clientPsaTask]INFO:[../../facility/psamqtt-wangpan/mqttclient.C:337] CMqttClientTcpLink::processSend after stateMachine
+[2017-03-15_21:52:42] [clientPsaTask]INFO:[../../task/psathread.C:40] ###select::result: 102: 1
+[2017-03-15_21:52:42] [clientPsaTask]INFO:[../../facility/psamqtt-wangpan/mqttclient.C:328] CMqttClientTcpLink::processSend method being called
+[2017-03-15_21:52:42] [clientPsaTask]INFO:[../../facility/psamqtt-wangpan/mqttclient.C:331] CMqttClientTcpLink::processSend method being called with data
+[2017-03-15_21:52:42] [clientPsaTask]INFO:[../../facility/psamqtt-wangpan/mqttclient.C:337] CMqttClientTcpLink::processSend after stateMachine
+[2017-03-15_21:52:43] [clientPsaTask]INFO:[../../task/psathread.C:40] ###select::result: 102: 1
+[2017-03-15_21:52:43] [clientPsaTask]INFO:[../../facility/psamqtt-wangpan/mqttclient.C:328] CMqttClientTcpLink::processSend method being called
+[2017-03-15_21:52:43] [clientPsaTask]INFO:[../../facility/psamqtt-wangpan/mqttclient.C:331] CMqttClientTcpLink::processSend method being called with data
+[2017-03-15_21:52:43] [clientPsaTask]INFO:[../../facility/psamqtt-wangpan/mqttclient.C:337] CMqttClientTcpLink::processSend after stateMachine
+[2017-03-15_21:52:43] [clientPsaTask]ERROR:[statemachine.C:242] invalid timerKey: 3
+[2017-03-15_21:52:43] [clientPsaTask]INFO:[../../task/psathread.C:40] ###select::result: 102: 1
+[2017-03-15_21:52:43] [clientPsaTask]INFO:[../../facility/psamqtt-wangpan/mqttclient.C:328] CMqttClientTcpLink::processSend method being called
+[2017-03-15_21:52:43] [clientPsaTask]INFO:[../../facility/psamqtt-wangpan/mqttclient.C:331] CMqttClientTcpLink::processSend method being called with data
+[2017-03-15_21:52:43] [clientPsaTask]INFO:[../../facility/psamqtt-wangpan/mqttclient.C:337] CMqttClientTcpLink::processSend after stateMachine
+[2017-03-15_21:52:44] [clientPsaTask]INFO:[../../task/psathread.C:40] ###select::result: 102: 1
+[2017-03-15_21:52:44] [clientPsaTask]INFO:[../../facility/psamqtt-wangpan/mqttclient.C:328] CMqttClientTcpLink::processSend method being called
+[2017-03-15_21:52:44] [clientPsaTask]INFO:[../../facility/psamqtt-wangpan/mqttclient.C:331] CMqttClientTcpLink::processSend method being called with data
+[2017-03-15_21:52:44] [clientPsaTask]INFO:[../../facility/psamqtt-wangpan/mqttclient.C:337] CMqttClientTcpLink::processSend after stateMachine
+[2017-03-15_21:52:44] [clientPsaTask]ERROR:[statemachine.C:242] invalid timerKey: 4
+[2017-03-15_21:52:44] [clientPsaTask]INFO:[../../task/psathread.C:40] ###select::result: 102: 1
+[2017-03-15_21:52:44] [clientPsaTask]INFO:[../../facility/psamqtt-wangpan/mqttclient.C:328] CMqttClientTcpLink::processSend method being called
+[2017-03-15_21:52:44] [clientPsaTask]INFO:[../../facility/psamqtt-wangpan/mqttclient.C:331] CMqttClientTcpLink::processSend method being called with data
+[2017-03-15_21:52:44] [clientPsaTask]INFO:[../../facility/psamqtt-wangpan/mqttclient.C:337] CMqttClientTcpLink::processSend after stateMachine
+[2017-03-15_21:52:45] [clientPsaTask]INFO:[../../task/psathread.C:40] ###select::result: 102: 1
+[2017-03-15_21:52:45] [clientPsaTask]INFO:[../../facility/psamqtt-wangpan/mqttclient.C:328] CMqttClientTcpLink::processSend method being called
+[2017-03-15_21:52:45] [clientPsaTask]INFO:[../../facility/psamqtt-wangpan/mqttclient.C:331] CMqttClientTcpLink::processSend method being called with data
+[2017-03-15_21:52:45] [clientPsaTask]INFO:[../../facility/psamqtt-wangpan/mqttclient.C:337] CMqttClientTcpLink::processSend after stateMachine
+[2017-03-15_21:52:45] [clientPsaTask]ERROR:[statemachine.C:242] invalid timerKey: 5
+[2017-03-15_21:52:45] [clientPsaTask]INFO:[../../task/psathread.C:40] ###select::result: 102: 1
+[2017-03-15_21:52:45] [clientPsaTask]INFO:[../../facility/psamqtt-wangpan/mqttclient.C:328] CMqttClientTcpLink::processSend method being called
+[2017-03-15_21:52:46] [clientPsaTask]INFO:[../../task/psathread.C:40] ###select::result: 102: 1
+[2017-03-15_21:52:46] [clientPsaTask]INFO:[../../facility/psamqtt-wangpan/mqttclient.C:328] CMqttClientTcpLink::processSend method being called
+[2017-03-15_21:52:46] [clientPsaTask]INFO:[../../facility/psamqtt-wangpan/mqttclient.C:331] CMqttClientTcpLink::processSend method being called with data
+[2017-03-15_21:52:46] [clientPsaTask]INFO:[../../facility/psamqtt-wangpan/mqttclient.C:337] CMqttClientTcpLink::processSend after stateMachine
+[2017-03-15_21:52:46] [clientPsaTask]ERROR:[statemachine.C:242] invalid timerKey: 6
+[2017-03-15_21:52:46] [clientPsaTask]INFO:[../../task/psathread.C:40] ###select::result: 102: 1
+[2017-03-15_21:52:46] [clientPsaTask]INFO:[../../facility/psamqtt-wangpan/mqttclient.C:328] CMqttClientTcpLink::processSend method being called
+[2017-03-15_21:52:47] [clientPsaTask]INFO:[../../task/psathread.C:40] ###select::result: 102: 1
+[2017-03-15_21:52:47] [clientPsaTask]INFO:[../../facility/psamqtt-wangpan/mqttclient.C:328] CMqttClientTcpLink::processSend method being called
+[2017-03-15_21:52:47] [clientPsaTask]INFO:[../../facility/psamqtt-wangpan/mqttclient.C:331] CMqttClientTcpLink::processSend method being called with data
+[2017-03-15_21:52:47] [clientPsaTask]INFO:[../../facility/psamqtt-wangpan/mqttclient.C:337] CMqttClientTcpLink::processSend after stateMachine
+[2017-03-15_21:52:47] [clientPsaTask]ERROR:[statemachine.C:242] invalid timerKey: 7
+[2017-03-15_21:52:47] [clientPsaTask]INFO:[../../task/psathread.C:40] ###select::result: 102: 1
+[2017-03-15_21:52:47] [clientPsaTask]INFO:[../../facility/psamqtt-wangpan/mqttclient.C:328] CMqttClientTcpLink::processSend method being called
+[2017-03-15_21:52:47] [clientPsaTask]ERROR:[statemachine.C:242] invalid timerKey: 8
+[2017-03-15_21:52:47] [clientPsaTask]INFO:[../../task/psathread.C:40] ###select::result: 102: 1
+[2017-03-15_21:52:47] [clientPsaTask]INFO:[../../facility/psamqtt-wangpan/mqttclient.C:328] CMqttClientTcpLink::processSend method being called
+[2017-03-15_21:52:48] [clientPsaTask]INFO:[../../task/psathread.C:40] ###select::result: 102: 1
+[2017-03-15_21:52:48] [clientPsaTask]INFO:[../../facility/psamqtt-wangpan/mqttclient.C:328] CMqttClientTcpLink::processSend method being called
+[2017-03-15_21:52:48] [clientPsaTask]INFO:[../../facility/psamqtt-wangpan/mqttclient.C:331] CMqttClientTcpLink::processSend method being called with data
+[2017-03-15_21:52:48] [clientPsaTask]INFO:[../../facility/psamqtt-wangpan/mqttclient.C:337] CMqttClientTcpLink::processSend after stateMachine
+[2017-03-15_21:52:48] [clientPsaTask]ERROR:[statemachine.C:242] invalid timerKey: 9
+[2017-03-15_21:52:48] [clientPsaTask]INFO:[../../task/psathread.C:40] ###select::result: 102: 1
+[2017-03-15_21:52:48] [clientPsaTask]INFO:[../../facility/psamqtt-wangpan/mqttclient.C:328] CMqttClientTcpLink::processSend method being called
+[2017-03-15_21:52:48] [clientPsaTask]ERROR:[statemachine.C:242] invalid timerKey: 10
+[2017-03-15_21:52:48] [clientPsaTask]INFO:[../../task/psathread.C:40] ###select::result: 102: 1
+[2017-03-15_21:52:48] [clientPsaTask]INFO:[../../facility/psamqtt-wangpan/mqttclient.C:328] CMqttClientTcpLink::processSend method being called
+[2017-03-15_21:52:49] [clientPsaTask]INFO:[../../task/psathread.C:40] ###select::result: 102: 1
+[2017-03-15_21:52:49] [clientPsaTask]INFO:[../../facility/psamqtt-wangpan/mqttclient.C:328] CMqttClientTcpLink::processSend method being called
+[2017-03-15_21:52:49] [clientPsaTask]INFO:[../../facility/psamqtt-wangpan/mqttclient.C:331] CMqttClientTcpLink::processSend method being called with data
+[2017-03-15_21:52:49] [clientPsaTask]INFO:[../../facility/psamqtt-wangpan/mqttclient.C:337] CMqttClientTcpLink::processSend after stateMachine
+[2017-03-15_21:52:49] [clientPsaTask]ERROR:[statemachine.C:242] invalid timerKey: 11
+[2017-03-15_21:52:49] [clientPsaTask]INFO:[../../task/psathread.C:40] ###select::result: 102: 1
+[2017-03-15_21:52:49] [clientPsaTask]INFO:[../../facility/psamqtt-wangpan/mqttclient.C:328] CMqttClientTcpLink::processSend method being called
+[2017-03-15_21:52:50] [clientPsaTask]INFO:[../../task/psathread.C:40] ###select::result: 102: 1
+[2017-03-15_21:52:50] [clientPsaTask]INFO:[../../facility/psamqtt-wangpan/mqttclient.C:328] CMqttClientTcpLink::processSend method being called
+[2017-03-15_21:52:50] [clientPsaTask]INFO:[../../facility/psamqtt-wangpan/mqttclient.C:331] CMqttClientTcpLink::processSend method being called with data
+[2017-03-15_21:52:50] [clientPsaTask]INFO:[../../facility/psamqtt-wangpan/mqttclient.C:337] CMqttClientTcpLink::processSend after stateMachine
+[2017-03-15_21:52:50] [clientPsaTask]ERROR:[statemachine.C:242] invalid timerKey: 12
+[2017-03-15_21:52:50] [clientPsaTask]INFO:[../../task/psathread.C:40] ###select::result: 102: 1
+[2017-03-15_21:52:50] [clientPsaTask]INFO:[../../facility/psamqtt-wangpan/mqttclient.C:328] CMqttClientTcpLink::processSend method being called
+[2017-03-15_21:52:51] [clientPsaTask]INFO:[../../task/psathread.C:40] ###select::result: 102: 1
+[2017-03-15_21:52:51] [clientPsaTask]INFO:[../../facility/psamqtt-wangpan/mqttclient.C:328] CMqttClientTcpLink::processSend method being called
+[2017-03-15_21:52:51] [clientPsaTask]INFO:[../../facility/psamqtt-wangpan/mqttclient.C:331] CMqttClientTcpLink::processSend method being called with data
+[2017-03-15_21:52:51] [clientPsaTask]INFO:[../../facility/psamqtt-wangpan/mqttclient.C:337] CMqttClientTcpLink::processSend after stateMachine
+[2017-03-15_21:52:51] [clientPsaTask]ERROR:[statemachine.C:242] invalid timerKey: 13
+[2017-03-15_21:52:51] [clientPsaTask]INFO:[../../task/psathread.C:40] ###select::result: 102: 1
+[2017-03-15_21:52:51] [clientPsaTask]INFO:[../../facility/psamqtt-wangpan/mqttclient.C:328] CMqttClientTcpLink::processSend method being called
+[2017-03-15_21:52:52] [clientPsaTask]INFO:[../../task/psathread.C:40] ###select::result: 102: 1
+[2017-03-15_21:52:52] [clientPsaTask]INFO:[../../facility/psamqtt-wangpan/mqttclient.C:328] CMqttClientTcpLink::processSend method being called
+[2017-03-15_21:52:52] [clientPsaTask]INFO:[../../facility/psamqtt-wangpan/mqttclient.C:331] CMqttClientTcpLink::processSend method being called with data
+[2017-03-15_21:52:52] [clientPsaTask]INFO:[../../facility/psamqtt-wangpan/mqttclient.C:337] CMqttClientTcpLink::processSend after stateMachine
+[2017-03-15_21:52:52] [clientPsaTask]ERROR:[statemachine.C:242] invalid timerKey: 14
+[2017-03-15_21:52:52] [clientPsaTask]INFO:[../../task/psathread.C:40] ###select::result: 102: 1
+[2017-03-15_21:52:52] [clientPsaTask]INFO:[../../facility/psamqtt-wangpan/mqttclient.C:328] CMqttClientTcpLink::processSend method being called
+[2017-03-15_21:52:53] [clientPsaTask]INFO:[../../task/psathread.C:40] ###select::result: 102: 1
+[2017-03-15_21:52:53] [clientPsaTask]INFO:[../../facility/psamqtt-wangpan/mqttclient.C:328] CMqttClientTcpLink::processSend method being called
+[2017-03-15_21:52:53] [clientPsaTask]INFO:[../../facility/psamqtt-wangpan/mqttclient.C:331] CMqttClientTcpLink::processSend method being called with data
+[2017-03-15_21:52:53] [clientPsaTask]INFO:[../../facility/psamqtt-wangpan/mqttclient.C:337] CMqttClientTcpLink::processSend after stateMachine
+[2017-03-15_21:52:53] [clientPsaTask]ERROR:[statemachine.C:242] invalid timerKey: 15
+[2017-03-15_21:52:53] [clientPsaTask]INFO:[../../task/psathread.C:40] ###select::result: 102: 1
+[2017-03-15_21:52:53] [clientPsaTask]INFO:[../../facility/psamqtt-wangpan/mqttclient.C:328] CMqttClientTcpLink::processSend method being called
+[2017-03-15_21:52:54] [clientPsaTask]INFO:[../../task/psathread.C:40] ###select::result: 102: 1
+[2017-03-15_21:52:54] [clientPsaTask]INFO:[../../facility/psamqtt-wangpan/mqttclient.C:328] CMqttClientTcpLink::processSend method being called
+[2017-03-15_21:52:54] [clientPsaTask]INFO:[../../facility/psamqtt-wangpan/mqttclient.C:331] CMqttClientTcpLink::processSend method being called with data
+[2017-03-15_21:52:54] [clientPsaTask]INFO:[../../facility/psamqtt-wangpan/mqttclient.C:337] CMqttClientTcpLink::processSend after stateMachine
+[2017-03-15_21:52:54] [clientPsaTask]ERROR:[statemachine.C:242] invalid timerKey: 16
+[2017-03-15_21:52:54] [clientPsaTask]INFO:[../../task/psathread.C:40] ###select::result: 102: 1
+[2017-03-15_21:52:54] [clientPsaTask]INFO:[../../facility/psamqtt-wangpan/mqttclient.C:328] CMqttClientTcpLink::processSend method being called
+[2017-03-15_21:52:55] [clientPsaTask]INFO:[../../task/psathread.C:40] ###select::result: 102: 1
+[2017-03-15_21:52:55] [clientPsaTask]INFO:[../../facility/psamqtt-wangpan/mqttclient.C:328] CMqttClientTcpLink::processSend method being called
+[2017-03-15_21:52:55] [clientPsaTask]INFO:[../../facility/psamqtt-wangpan/mqttclient.C:331] CMqttClientTcpLink::processSend method being called with data
+[2017-03-15_21:52:55] [clientPsaTask]INFO:[../../facility/psamqtt-wangpan/mqttclient.C:337] CMqttClientTcpLink::processSend after stateMachine
+[2017-03-15_21:52:55] [clientPsaTask]ERROR:[statemachine.C:242] invalid timerKey: 17
+[2017-03-15_21:52:55] [clientPsaTask]INFO:[../../task/psathread.C:40] ###select::result: 102: 1
+[2017-03-15_21:52:55] [clientPsaTask]INFO:[../../facility/psamqtt-wangpan/mqttclient.C:328] CMqttClientTcpLink::processSend method being called
+[2017-03-15_21:52:56] [clientPsaTask]INFO:[../../task/psathread.C:40] ###select::result: 102: 1
+[2017-03-15_21:52:56] [clientPsaTask]INFO:[../../facility/psamqtt-wangpan/mqttclient.C:328] CMqttClientTcpLink::processSend method being called
+[2017-03-15_21:52:56] [clientPsaTask]INFO:[../../facility/psamqtt-wangpan/mqttclient.C:331] CMqttClientTcpLink::processSend method being called with data
+[2017-03-15_21:52:56] [clientPsaTask]INFO:[../../facility/psamqtt-wangpan/mqttclient.C:337] CMqttClientTcpLink::processSend after stateMachine
+[2017-03-15_21:52:56] [clientPsaTask]ERROR:[statemachine.C:242] invalid timerKey: 18
+[2017-03-15_21:52:56] [clientPsaTask]INFO:[../../task/psathread.C:40] ###select::result: 102: 1
+[2017-03-15_21:52:56] [clientPsaTask]INFO:[../../facility/psamqtt-wangpan/mqttclient.C:328] CMqttClientTcpLink::processSend method being called
+[2017-03-15_21:52:57] [clientPsaTask]INFO:[../../task/psathread.C:40] ###select::result: 102: 1
+[2017-03-15_21:52:57] [clientPsaTask]INFO:[../../facility/psamqtt-wangpan/mqttclient.C:328] CMqttClientTcpLink::processSend method being called
+[2017-03-15_21:52:57] [clientPsaTask]INFO:[../../facility/psamqtt-wangpan/mqttclient.C:331] CMqttClientTcpLink::processSend method being called with data
+[2017-03-15_21:52:57] [clientPsaTask]INFO:[../../facility/psamqtt-wangpan/mqttclient.C:337] CMqttClientTcpLink::processSend after stateMachine
+[2017-03-15_21:52:57] [clientPsaTask]ERROR:[statemachine.C:242] invalid timerKey: 19
+[2017-03-15_21:52:57] [clientPsaTask]INFO:[../../task/psathread.C:40] ###select::result: 102: 1
+[2017-03-15_21:52:57] [clientPsaTask]INFO:[../../facility/psamqtt-wangpan/mqttclient.C:328] CMqttClientTcpLink::processSend method being called
+[2017-03-15_21:52:58] [clientPsaTask]INFO:[../../task/psathread.C:40] ###select::result: 102: 1
+[2017-03-15_21:52:58] [clientPsaTask]INFO:[../../facility/psamqtt-wangpan/mqttclient.C:328] CMqttClientTcpLink::processSend method being called
+[2017-03-15_21:52:58] [clientPsaTask]INFO:[../../facility/psamqtt-wangpan/mqttclient.C:331] CMqttClientTcpLink::processSend method being called with data
+[2017-03-15_21:52:58] [clientPsaTask]INFO:[../../facility/psamqtt-wangpan/mqttclient.C:337] CMqttClientTcpLink::processSend after stateMachine
+[2017-03-15_21:52:58] [clientPsaTask]ERROR:[statemachine.C:242] invalid timerKey: 20
+[2017-03-15_21:52:58] [clientPsaTask]INFO:[../../task/psathread.C:40] ###select::result: 102: 1
+[2017-03-15_21:52:58] [clientPsaTask]INFO:[../../facility/psamqtt-wangpan/mqttclient.C:328] CMqttClientTcpLink::processSend method being called
+[2017-03-15_21:52:59] [clientPsaTask]INFO:[../../task/psathread.C:40] ###select::result: 102: 1
+[2017-03-15_21:52:59] [clientPsaTask]INFO:[../../facility/psamqtt-wangpan/mqttclient.C:328] CMqttClientTcpLink::processSend method being called
+[2017-03-15_21:52:59] [clientPsaTask]INFO:[../../facility/psamqtt-wangpan/mqttclient.C:331] CMqttClientTcpLink::processSend method being called with data
+[2017-03-15_21:52:59] [clientPsaTask]INFO:[../../facility/psamqtt-wangpan/mqttclient.C:337] CMqttClientTcpLink::processSend after stateMachine
+[2017-03-15_21:52:59] [clientPsaTask]ERROR:[statemachine.C:242] invalid timerKey: 21
+[2017-03-15_21:52:59] [clientPsaTask]INFO:[../../task/psathread.C:40] ###select::result: 102: 1
+[2017-03-15_21:52:59] [clientPsaTask]INFO:[../../facility/psamqtt-wangpan/mqttclient.C:328] CMqttClientTcpLink::processSend method being called
+[2017-03-15_21:53:00] [clientPsaTask]INFO:[../../task/psathread.C:40] ###select::result: 102: 1
+[2017-03-15_21:53:00] [clientPsaTask]INFO:[../../facility/psamqtt-wangpan/mqttclient.C:328] CMqttClientTcpLink::processSend method being called
+[2017-03-15_21:53:00] [clientPsaTask]INFO:[../../facility/psamqtt-wangpan/mqttclient.C:331] CMqttClientTcpLink::processSend method being called with data
+[2017-03-15_21:53:00] [clientPsaTask]INFO:[../../facility/psamqtt-wangpan/mqttclient.C:337] CMqttClientTcpLink::processSend after stateMachine
+[2017-03-15_21:53:00] [clientPsaTask]ERROR:[statemachine.C:242] invalid timerKey: 22
+[2017-03-15_21:53:00] [clientPsaTask]INFO:[../../task/psathread.C:40] ###select::result: 102: 1
+[2017-03-15_21:53:00] [clientPsaTask]INFO:[../../facility/psamqtt-wangpan/mqttclient.C:328] CMqttClientTcpLink::processSend method being called
+[2017-03-15_21:53:01] [clientPsaTask]INFO:[../../task/psathread.C:40] ###select::result: 102: 1
+[2017-03-15_21:53:01] [clientPsaTask]INFO:[../../facility/psamqtt-wangpan/mqttclient.C:328] CMqttClientTcpLink::processSend method being called
+[2017-03-15_21:53:01] [clientPsaTask]INFO:[../../facility/psamqtt-wangpan/mqttclient.C:331] CMqttClientTcpLink::processSend method being called with data
+[2017-03-15_21:53:01] [clientPsaTask]INFO:[../../facility/psamqtt-wangpan/mqttclient.C:337] CMqttClientTcpLink::processSend after stateMachine
+[2017-03-15_21:53:01] [clientPsaTask]ERROR:[statemachine.C:242] invalid timerKey: 23
+[2017-03-15_21:53:01] [clientPsaTask]INFO:[../../task/psathread.C:40] ###select::result: 102: 1
+[2017-03-15_21:53:01] [clientPsaTask]INFO:[../../facility/psamqtt-wangpan/mqttclient.C:328] CMqttClientTcpLink::processSend method being called
+[2017-03-15_21:53:02] [clientPsaTask]INFO:[../../task/psathread.C:40] ###select::result: 102: 1
+[2017-03-15_21:53:02] [clientPsaTask]INFO:[../../facility/psamqtt-wangpan/mqttclient.C:328] CMqttClientTcpLink::processSend method being called
+[2017-03-15_21:53:02] [clientPsaTask]INFO:[../../facility/psamqtt-wangpan/mqttclient.C:331] CMqttClientTcpLink::processSend method being called with data
+[2017-03-15_21:53:02] [clientPsaTask]INFO:[../../facility/psamqtt-wangpan/mqttclient.C:337] CMqttClientTcpLink::processSend after stateMachine
+[2017-03-15_21:53:02] [clientPsaTask]ERROR:[statemachine.C:242] invalid timerKey: 24
+[2017-03-15_21:53:02] [clientPsaTask]INFO:[../../task/psathread.C:40] ###select::result: 102: 1
+[2017-03-15_21:53:02] [clientPsaTask]INFO:[../../facility/psamqtt-wangpan/mqttclient.C:328] CMqttClientTcpLink::processSend method being called
+[2017-03-15_21:53:03] [clientPsaTask]INFO:[../../task/psathread.C:40] ###select::result: 102: 1
+[2017-03-15_21:53:03] [clientPsaTask]INFO:[../../facility/psamqtt-wangpan/mqttclient.C:328] CMqttClientTcpLink::processSend method being called
+[2017-03-15_21:53:03] [clientPsaTask]INFO:[../../facility/psamqtt-wangpan/mqttclient.C:331] CMqttClientTcpLink::processSend method being called with data
+[2017-03-15_21:53:03] [clientPsaTask]INFO:[../../facility/psamqtt-wangpan/mqttclient.C:337] CMqttClientTcpLink::processSend after stateMachine
+[2017-03-15_21:53:03] [clientPsaTask]ERROR:[statemachine.C:242] invalid timerKey: 25
+[2017-03-15_21:53:03] [clientPsaTask]INFO:[../../task/psathread.C:40] ###select::result: 102: 1
+[2017-03-15_21:53:03] [clientPsaTask]INFO:[../../facility/psamqtt-wangpan/mqttclient.C:328] CMqttClientTcpLink::processSend method being called
+[2017-03-15_21:53:04] [clientPsaTask]INFO:[../../task/psathread.C:40] ###select::result: 102: 1
+[2017-03-15_21:53:04] [clientPsaTask]INFO:[../../facility/psamqtt-wangpan/mqttclient.C:328] CMqttClientTcpLink::processSend method being called
+[2017-03-15_21:53:04] [clientPsaTask]INFO:[../../facility/psamqtt-wangpan/mqttclient.C:331] CMqttClientTcpLink::processSend method being called with data
+[2017-03-15_21:53:04] [clientPsaTask]INFO:[../../facility/psamqtt-wangpan/mqttclient.C:337] CMqttClientTcpLink::processSend after stateMachine
+[2017-03-15_21:53:04] [clientPsaTask]ERROR:[statemachine.C:242] invalid timerKey: 26
+[2017-03-15_21:53:04] [clientPsaTask]INFO:[../../task/psathread.C:40] ###select::result: 102: 1
+[2017-03-15_21:53:04] [clientPsaTask]INFO:[../../facility/psamqtt-wangpan/mqttclient.C:328] CMqttClientTcpLink::processSend method being called
+[2017-03-15_21:53:05] [clientPsaTask]INFO:[../../task/psathread.C:40] ###select::result: 102: 1
+[2017-03-15_21:53:05] [clientPsaTask]INFO:[../../facility/psamqtt-wangpan/mqttclient.C:328] CMqttClientTcpLink::processSend method being called
+[2017-03-15_21:53:05] [clientPsaTask]INFO:[../../facility/psamqtt-wangpan/mqttclient.C:331] CMqttClientTcpLink::processSend method being called with data
+[2017-03-15_21:53:05] [clientPsaTask]INFO:[../../facility/psamqtt-wangpan/mqttclient.C:337] CMqttClientTcpLink::processSend after stateMachine
+[2017-03-15_21:53:05] [clientPsaTask]ERROR:[statemachine.C:242] invalid timerKey: 27
+[2017-03-15_21:53:05] [clientPsaTask]INFO:[../../task/psathread.C:40] ###select::result: 102: 1
+[2017-03-15_21:53:05] [clientPsaTask]INFO:[../../facility/psamqtt-wangpan/mqttclient.C:328] CMqttClientTcpLink::processSend method being called
+[2017-03-15_21:53:06] [clientPsaTask]INFO:[../../task/psathread.C:40] ###select::result: 102: 1
+[2017-03-15_21:53:06] [clientPsaTask]INFO:[../../facility/psamqtt-wangpan/mqttclient.C:328] CMqttClientTcpLink::processSend method being called
+[2017-03-15_21:53:06] [clientPsaTask]INFO:[../../facility/psamqtt-wangpan/mqttclient.C:331] CMqttClientTcpLink::processSend method being called with data
+[2017-03-15_21:53:06] [clientPsaTask]INFO:[../../facility/psamqtt-wangpan/mqttclient.C:337] CMqttClientTcpLink::processSend after stateMachine
+[2017-03-15_21:53:06] [clientPsaTask]ERROR:[statemachine.C:242] invalid timerKey: 28
+[2017-03-15_21:53:06] [clientPsaTask]INFO:[../../task/psathread.C:40] ###select::result: 102: 1
+[2017-03-15_21:53:06] [clientPsaTask]INFO:[../../facility/psamqtt-wangpan/mqttclient.C:328] CMqttClientTcpLink::processSend method being called
+[2017-03-15_21:57:52] [clientPsaTask]INFO:[../../task/psathread.C:40] ###select::result: 102: 0
+[2017-03-15_21:57:52] [clientPsaTask]INFO:[../../task/psathread.C:40] ###select::result: 102: 0
+[2017-03-15_21:57:53] [clientPsaTask]INFO:[../../task/psathread.C:40] ###select::result: 102: 0
+[2017-03-15_21:57:54] [clientPsaTask]INFO:[../../task/psathread.C:40] ###select::result: 102: 0
+[2017-03-15_21:57:54] [clientPsaTask]INFO:[mqttclienttask.C:115] calling MqttClientTask::onTimeOut method
+[2017-03-15_21:57:54] [clientPsaTask]INFO:[comserv/socket.C:1947] Open client socket succeed. remoteAddr: 127.0.0.1:9002. clientPort: 0.  sock_fd: 7
+[2017-03-15_21:57:54] [clientPsaTask]INFO:[../../task/psathread.C:40] ###select::result: 102: 1
+[2017-03-15_21:57:54] [clientPsaTask]INFO:[../../facility/psamqtt-wangpan/mqttclient.C:328] CMqttClientTcpLink::processSend method being called
+[2017-03-15_21:57:54] [clientPsaTask]INFO:[../../facility/psamqtt-wangpan/mqttclient.C:331] CMqttClientTcpLink::processSend method being called with data
+[2017-03-15_21:57:54] [clientPsaTask]INFO:[../../facility/psamqtt-wangpan/mqttclient.C:337] CMqttClientTcpLink::processSend after stateMachine
+[2017-03-15_21:57:54] [clientPsaTask]INFO:[../../facility/psamqtt-wangpan/mqttclient.C:345] CMqttClientTcpLink::processSend after pointer casting
+[2017-03-15_21:57:54] [clientPsaTask]INFO:[../../facility/psamqtt-wangpan/mqttlink.C:796] send connect message
+[2017-03-15_21:57:55] [clientPsaTask]INFO:[../../task/psathread.C:40] ###select::result: 102: 2
+[2017-03-15_21:57:55] [clientPsaTask]INFO:[../../facility/psamqtt-wangpan/mqttclient.C:328] CMqttClientTcpLink::processSend method being called
+[2017-03-15_21:57:55] [clientPsaTask]INFO:[../../facility/psamqtt-wangpan/mqttclient.C:331] CMqttClientTcpLink::processSend method being called with data
+[2017-03-15_21:57:55] [clientPsaTask]ERROR:[statemachine.C:39] ###ERRRO:trying to send a publish while not in CONNECTED_STATE
+[2017-03-15_21:57:55] [clientPsaTask]INFO:[../../facility/psamqtt-wangpan/mqttclient.C:337] CMqttClientTcpLink::processSend after stateMachine
+[2017-03-15_21:57:55] [clientPsaTask]INFO:[../../facility/psamqtt-wangpan/mqttclient.C:525] CMqttClientTcpLink::processRecv method being called
+[2017-03-15_21:57:55] [clientPsaTask]INFO:[../../facility/psamqtt-wangpan/mqttlink.C:712] received connack message: 0
+[2017-03-15_21:57:55] [clientPsaTask]INFO:[../../facility/psamqtt-wangpan/mqttlink.C:335] CMqttLink::responseService before protocolLogic
+[2017-03-15_21:57:55] [clientPsaTask]INFO:[../../facility/psamqtt-wangpan/mqttclient.C:598] CMqttClientTcpLink::protocolLogic before calling sendToTask
+[2017-03-15_21:57:55] [clientPsaTask]INFO:[../../facility/psamqtt-wangpan/mqttlink.C:337] CMqttLink::responseService after protocolLogic
+[2017-03-15_21:57:55] [clientPsaTask]ERROR:[../../facility/psamqtt-wangpan/mqttlink.C:100] CMqttLink::msgParse, message length = 0
+[2017-03-15_21:57:56] [clientPsaTask]INFO:[../../task/psathread.C:40] ###select::result: 102: 1
+[2017-03-15_21:57:56] [clientPsaTask]INFO:[../../facility/psamqtt-wangpan/mqttclient.C:328] CMqttClientTcpLink::processSend method being called
+[2017-03-15_21:57:56] [clientPsaTask]INFO:[../../facility/psamqtt-wangpan/mqttclient.C:331] CMqttClientTcpLink::processSend method being called with data
+[2017-03-15_21:57:56] [clientPsaTask]INFO:[../../facility/psamqtt-wangpan/mqttclient.C:337] CMqttClientTcpLink::processSend after stateMachine
+[2017-03-15_21:57:57] [clientPsaTask]INFO:[../../task/psathread.C:40] ###select::result: 102: 1
+[2017-03-15_21:57:57] [clientPsaTask]INFO:[../../facility/psamqtt-wangpan/mqttclient.C:328] CMqttClientTcpLink::processSend method being called
+[2017-03-15_21:57:57] [clientPsaTask]INFO:[../../facility/psamqtt-wangpan/mqttclient.C:331] CMqttClientTcpLink::processSend method being called with data
+[2017-03-15_21:57:57] [clientPsaTask]INFO:[../../facility/psamqtt-wangpan/mqttclient.C:337] CMqttClientTcpLink::processSend after stateMachine
+[2017-03-15_21:57:58] [clientPsaTask]INFO:[../../task/psathread.C:40] ###select::result: 102: 1
+[2017-03-15_21:57:58] [clientPsaTask]INFO:[../../facility/psamqtt-wangpan/mqttclient.C:328] CMqttClientTcpLink::processSend method being called
+[2017-03-15_21:57:58] [clientPsaTask]INFO:[../../facility/psamqtt-wangpan/mqttclient.C:331] CMqttClientTcpLink::processSend method being called with data
+[2017-03-15_21:57:58] [clientPsaTask]INFO:[../../facility/psamqtt-wangpan/mqttclient.C:337] CMqttClientTcpLink::processSend after stateMachine
+[2017-03-15_21:57:58] [clientPsaTask]ERROR:[statemachine.C:242] invalid timerKey: 3
+[2017-03-15_21:57:58] [clientPsaTask]INFO:[../../task/psathread.C:40] ###select::result: 102: 1
+[2017-03-15_21:57:58] [clientPsaTask]INFO:[../../facility/psamqtt-wangpan/mqttclient.C:328] CMqttClientTcpLink::processSend method being called
+[2017-03-15_21:57:58] [clientPsaTask]INFO:[../../facility/psamqtt-wangpan/mqttclient.C:331] CMqttClientTcpLink::processSend method being called with data
+[2017-03-15_21:57:58] [clientPsaTask]INFO:[../../facility/psamqtt-wangpan/mqttclient.C:337] CMqttClientTcpLink::processSend after stateMachine
+[2017-03-15_21:57:59] [clientPsaTask]INFO:[../../task/psathread.C:40] ###select::result: 102: 1
+[2017-03-15_21:57:59] [clientPsaTask]INFO:[../../facility/psamqtt-wangpan/mqttclient.C:328] CMqttClientTcpLink::processSend method being called
+[2017-03-15_21:57:59] [clientPsaTask]INFO:[../../facility/psamqtt-wangpan/mqttclient.C:331] CMqttClientTcpLink::processSend method being called with data
+[2017-03-15_21:57:59] [clientPsaTask]INFO:[../../facility/psamqtt-wangpan/mqttclient.C:337] CMqttClientTcpLink::processSend after stateMachine
+[2017-03-15_21:57:59] [clientPsaTask]ERROR:[statemachine.C:242] invalid timerKey: 4
+[2017-03-15_21:57:59] [clientPsaTask]INFO:[../../task/psathread.C:40] ###select::result: 102: 1
+[2017-03-15_21:57:59] [clientPsaTask]INFO:[../../facility/psamqtt-wangpan/mqttclient.C:328] CMqttClientTcpLink::processSend method being called
+[2017-03-15_21:57:59] [clientPsaTask]INFO:[../../facility/psamqtt-wangpan/mqttclient.C:331] CMqttClientTcpLink::processSend method being called with data
+[2017-03-15_21:57:59] [clientPsaTask]INFO:[../../facility/psamqtt-wangpan/mqttclient.C:337] CMqttClientTcpLink::processSend after stateMachine
+[2017-03-15_21:58:00] [clientPsaTask]INFO:[../../task/psathread.C:40] ###select::result: 102: 1
+[2017-03-15_21:58:00] [clientPsaTask]INFO:[../../facility/psamqtt-wangpan/mqttclient.C:328] CMqttClientTcpLink::processSend method being called
+[2017-03-15_21:58:00] [clientPsaTask]INFO:[../../facility/psamqtt-wangpan/mqttclient.C:331] CMqttClientTcpLink::processSend method being called with data
+[2017-03-15_21:58:00] [clientPsaTask]INFO:[../../facility/psamqtt-wangpan/mqttclient.C:337] CMqttClientTcpLink::processSend after stateMachine
+[2017-03-15_21:58:00] [clientPsaTask]ERROR:[statemachine.C:242] invalid timerKey: 5
+[2017-03-15_21:58:00] [clientPsaTask]INFO:[../../task/psathread.C:40] ###select::result: 102: 1
+[2017-03-15_21:58:00] [clientPsaTask]INFO:[../../facility/psamqtt-wangpan/mqttclient.C:328] CMqttClientTcpLink::processSend method being called
+[2017-03-15_21:58:01] [clientPsaTask]INFO:[../../task/psathread.C:40] ###select::result: 102: 1
+[2017-03-15_21:58:01] [clientPsaTask]INFO:[../../facility/psamqtt-wangpan/mqttclient.C:328] CMqttClientTcpLink::processSend method being called
+[2017-03-15_21:58:01] [clientPsaTask]INFO:[../../facility/psamqtt-wangpan/mqttclient.C:331] CMqttClientTcpLink::processSend method being called with data
+[2017-03-15_21:58:01] [clientPsaTask]INFO:[../../facility/psamqtt-wangpan/mqttclient.C:337] CMqttClientTcpLink::processSend after stateMachine
+[2017-03-15_21:58:01] [clientPsaTask]ERROR:[statemachine.C:242] invalid timerKey: 6
+[2017-03-15_21:58:01] [clientPsaTask]INFO:[../../task/psathread.C:40] ###select::result: 102: 1
+[2017-03-15_21:58:01] [clientPsaTask]INFO:[../../facility/psamqtt-wangpan/mqttclient.C:328] CMqttClientTcpLink::processSend method being called
+[2017-03-15_21:58:02] [clientPsaTask]INFO:[../../task/psathread.C:40] ###select::result: 102: 1
+[2017-03-15_21:58:02] [clientPsaTask]INFO:[../../facility/psamqtt-wangpan/mqttclient.C:328] CMqttClientTcpLink::processSend method being called
+[2017-03-15_21:58:02] [clientPsaTask]INFO:[../../facility/psamqtt-wangpan/mqttclient.C:331] CMqttClientTcpLink::processSend method being called with data
+[2017-03-15_21:58:02] [clientPsaTask]INFO:[../../facility/psamqtt-wangpan/mqttclient.C:337] CMqttClientTcpLink::processSend after stateMachine
+[2017-03-15_21:58:02] [clientPsaTask]ERROR:[statemachine.C:242] invalid timerKey: 7
+[2017-03-15_21:58:02] [clientPsaTask]INFO:[../../task/psathread.C:40] ###select::result: 102: 1
+[2017-03-15_21:58:02] [clientPsaTask]INFO:[../../facility/psamqtt-wangpan/mqttclient.C:328] CMqttClientTcpLink::processSend method being called
+[2017-03-15_21:58:02] [clientPsaTask]ERROR:[statemachine.C:242] invalid timerKey: 8
+[2017-03-15_21:58:02] [clientPsaTask]INFO:[../../task/psathread.C:40] ###select::result: 102: 1
+[2017-03-15_21:58:02] [clientPsaTask]INFO:[../../facility/psamqtt-wangpan/mqttclient.C:328] CMqttClientTcpLink::processSend method being called
+[2017-03-15_21:58:02] [clientPsaTask]ERROR:[statemachine.C:242] invalid timerKey: 9
+[2017-03-15_21:58:02] [clientPsaTask]INFO:[../../task/psathread.C:40] ###select::result: 102: 1
+[2017-03-15_21:58:02] [clientPsaTask]INFO:[../../facility/psamqtt-wangpan/mqttclient.C:328] CMqttClientTcpLink::processSend method being called
+[2017-03-15_21:58:03] [clientPsaTask]INFO:[../../task/psathread.C:40] ###select::result: 102: 1
+[2017-03-15_21:58:03] [clientPsaTask]INFO:[../../facility/psamqtt-wangpan/mqttclient.C:328] CMqttClientTcpLink::processSend method being called
+[2017-03-15_21:58:03] [clientPsaTask]INFO:[../../facility/psamqtt-wangpan/mqttclient.C:331] CMqttClientTcpLink::processSend method being called with data
+[2017-03-15_21:58:03] [clientPsaTask]INFO:[../../facility/psamqtt-wangpan/mqttclient.C:337] CMqttClientTcpLink::processSend after stateMachine
+[2017-03-15_21:58:03] [clientPsaTask]ERROR:[statemachine.C:242] invalid timerKey: 10
+[2017-03-15_21:58:03] [clientPsaTask]INFO:[../../task/psathread.C:40] ###select::result: 102: 1
+[2017-03-15_21:58:03] [clientPsaTask]INFO:[../../facility/psamqtt-wangpan/mqttclient.C:328] CMqttClientTcpLink::processSend method being called

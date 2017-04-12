@@ -1,0 +1,67 @@
+//only one task
+//many class
+//depending on the type of deployment,we init different task
+
+//abstract task ,we overload these method
+//onInit(), preTaskStart(),clone(),procMsg(),onTimeOut()
+
+
+//ua,we make mobile management one task either in microSat or in backboneSat
+//cme-u (what kind of message can be received,what interface it exposes to the
+//external world)
+
+
+//how do cme-u handle or proc a msg?
+//when a msg is received,certain ds need to set up and mMaintain
+//then after processing the msg,a return msg is needed
+//when will uareg module be called,how to call it
+//uareg should be called on initialization
+//how to do with cache and subList,do we need to add a timestamp
+//messages received by cme-u if the receiver(user) can't be found immediately,cache it
+//for a moment
+//如何判断报文类业务和对话类业务。
+//用户地址查询和用户地址订阅的发起流程。如何发起？
+//rme和cme之间的交互??rsc是如何分发消息的？如何设置rsc对消息的分发？
+//rid or callid? In which way is callid is maintained.
+//do we still need a timer in rsc??or should apptask main a timer?(currently assuming
+//rsc maintain a timer)
+//what does consumer and producer mean? using a simple case.
+
+//how to maintain the order of message?as in the case of user-register...自动机可以是一个选项。
+//一个callid对应一个statemachine
+
+//msg type,sender: ,receiver:
+
+//what to do with ua and cme-h?
+//should ua query with nme before sending a msg or it just sending a msg to
+//cme-h ? since the connection between microsat and mainsat is weak compared
+//to the connection between mainsat. However,.
+
+
+//messages are distributed according to ruri
+//build a quick demo as fast as possible
+//rsc消息中host域的作用
+
+//do we really need statemachine in every process?
+//currently it's the better solution I can come up with.
+
+
+//how do we test each module independently?
+//using mock task,sending and receiving mock message.
+
+//a number of modules could be in the same machine.
+
+//complete the addr resolve code and test
+
+//how do we validate the structe of our program??
+//if we use network,we use rscpsa,is rscpsa capable of sending msg
+//between different threads on the same machine?
+
+
+//in the test,we build a abstracttask to simulate rscpsa
+//一个流程一个流程地测试，一个功能一个功能地测试
+//需要维护seqid..
+//phyAddr 是什么，与logAddr的区别
+
+//in the test of program.
+//we set the producer as the ipport of from end of msg,consumer as the to end

@@ -1,0 +1,156 @@
+#ifndef __MSGDATADEF_H_
+#define __MSGDATADEF_H_
+
+_CLASSDEF(TMsgAddress)
+class TMsgAddress:public TMsgPara
+{
+	public:
+		UINT           logAddr;
+		UINT           phyAddr;
+		UINT           taskInstID;
+	%{
+		TMsgAddress(CStr& str)
+		{
+			CStr tmp[3];
+			if(str.split(tmp,3,":")==3)
+			{
+				logAddr=tmp[0].toInt();
+				phyAddr=tmp[1].toInt();
+				taskInstID=tmp[2].toInt();
+			}	
+		}
+		BOOL encodeCStr(CStr& buf)
+		{
+			buf<<logAddr<<"_"<<phyAddr<<"_"<<taskInstID;
+			return TRUE;
+		}
+		BOOL decodeCStr(CStr& buf)
+		{
+			CStr tmp[3];
+			if(buf.split(tmp,3,"_")==3)
+			{
+				logAddr=tmp[0].toInt();
+				phyAddr=tmp[1].toInt();
+				taskInstID=tmp[2].toInt();
+				return TRUE;
+			}
+			return FALSE;
+		}
+	%}
+};
+
+_CLASSDEF(TURI)
+class TURI:public TMsgPara
+{
+	public:
+		CStr           uri;
+		CStr           schema;
+		CStr           user;
+		CStr           password;
+		CStr           domain;
+		CStr           host;
+		INT            port;
+
+	%{
+		TURI(CStr& str)
+		{
+			setUri(str.c_str());
+		}
+		void  setUri(const char* _uri)
+		{
+			uri.clear();
+			uri=_uri;
+			CStr _schema[2];
+			if(uri.split(_schema,2,"://")==2)  schema=_schema[0];
+			else _schema[1]=uri;
+			
+			CStr _user[2];
+			if(_schema[1].split(_user,2,"@")==2)
+			{
+				CStr _password[2];
+				if(_user[0].split(_password,2,":")==2)
+				{
+					user=_password[0];
+					password=_password[1];
+				}
+				else
+				{
+					user=_user[0];
+				}
+				domain=_user[1];
+			}
+			else domain=_schema[1];
+			
+			CStr _host[2];
+			if(domain.split(_host,2,":")==2) 
+			{
+				host=_host[0];
+				port=_host[1].toInt();
+			}
+			else
+			{
+				host=domain;
+			}	
+		}
+
+		void  setSchema(const char* st) { schema.clear(); schema=st; resetUri(); }
+		void  setUser(const char* _user) { user.clear();  user=_user; resetUri(); }
+		void  setPassword(const char* _password) {password.clear(); password=_password; resetUri(); }
+		void  setHost(const char* _host) {host.clear(); host=_host; resetUri(); }
+		void  setPort(int _port) { 	port=_port; resetUri(); }
+		void  setDomain(const char* _domain)
+		{
+			domain.clear();
+			domain=_domain;
+			host.clear();
+			port=0;
+			uri.clear();
+			domain.clear();
+			if(schema.size()) uri<<schema<<"://";
+			if(user.size()) uri<<user;
+			if(password.size()) uri<<":"<<password;
+			if(domain.size())
+			{
+				uri<<"@"<<domain;
+				CStr tmp[2];
+				if(domain.split(tmp,2,":")==2)
+				{
+					host=tmp[0];
+					port=tmp[1].toInt();
+				}
+				else
+				{
+					host=domain;
+				}
+			}	
+		}	
+		
+		void resetUri()
+		{
+			uri.clear();
+			domain.clear();
+			if(schema.size()) uri<<schema<<"://";
+			if(user.size()) uri<<user;
+			if(password.size()) uri<<":"<<password;
+			if(host.size())
+			{
+				uri<<"@"<<host;
+				domain<<host;
+			}
+			if(port)
+			{
+				uri<<":"<<port;
+				domain<<port;
+			}	
+		}
+
+		const char* c_str() {	return uri.c_str(); }
+		
+		BOOL  encodeCStr(CStr& buf) { buf<<uri; return TRUE; }
+		BOOL  decodeCStr(CStr& buf) { uri=buf; resetUri(); return TRUE; }
+	%}
+};
+
+
+#endif
+ 

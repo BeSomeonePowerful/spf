@@ -1,0 +1,70 @@
+#ifndef __MQTTMSGDEF_H
+#define __MQTTMSGDEF_H
+
+const UINT MAX_TOPICS=30;
+
+class TMqttCtrlMsg:public TCtrlMsg
+{
+	public:
+		UINT    cid (default 1);
+%{
+		virtual UINT      getSessionId() { return cid; } 
+		virtual void      setSessionId(UINT sid) { cid=sid; optionSet |=session_flag; } 
+%}
+};
+
+class TMqttConnect : public TMsgBody
+{
+   CStr clientName;
+   CStr userName(optional);
+   CStr password(optional);
+} = MQTT_CONNECT(2601);
+
+class TMqttConnAck : public TMsgBody
+{
+   UINT code;
+} = MQTT_CONNACK(2602);
+
+class TMqttPublish : public TMsgBody
+{
+public:
+   CStr clientName;
+   CStr topic;
+   CStr content;
+} = MQTT_PUBLISH(2603);
+
+class TMqttSubscribe : public TMsgBody
+{
+public:
+   CStr clientName;
+   UINT msgId(default 0);
+   CStr topic[];
+} = MQTT_SUBSCRIBE(2604);
+
+class TMqttUnsubscribe : public TMsgBody
+{
+public:
+   CStr clientName;
+   UINT msgId(default 0);
+   CStr topic[];
+} = MQTT_UNSUBSCRIBE(2605);
+
+class TMqttSubAck : public TMsgBody
+{
+public:
+   UINT msgId(default 0);
+   UINT code;
+} = MQTT_SUBACK(2606);
+
+class TMqttUnsubAck : public TMsgBody
+{
+public:
+   UINT msgId(default 0);
+} = MQTT_UNSUBACK(2607);
+
+class TMqttDisconnect : public TMsgBody
+{
+   CStr clientName;
+} = MQTT_DISCONNECT(2608);
+
+#endif

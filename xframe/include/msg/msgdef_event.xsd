@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- this xsd file is created automatically by msgcreator tool( msc ). -->
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified" attributeFormDefault="unqualified">
+	<xs:element name="TEventMsgHdr">
+	    <xs:annotation>
+	        <xs:documentation> TEventMsgHdr ctrl msg definition</xs:documentation>
+	    </xs:annotation>
+	    <xs:complexType>
+	        <xs:sequence>
+	            <xs:element name="status" type="xs:unsignedInt"   />
+	            <xs:element name="cseq" type="xs:unsignedInt"   />
+	            <xs:element name="observer" type="xs:string"   />
+	            <xs:element name="trigger" type="xs:string"   />
+	            <xs:element name="eid" type="xs:string"   />
+	        </xs:sequence>
+	    </xs:complexType>
+	</xs:element>
+	<xs:element name="TEventMsgBody">
+	    <xs:annotation>
+	        <xs:documentation> TEventMsgBody msg body definition</xs:documentation>
+	    </xs:annotation>
+	    <xs:complexType>
+	        <xs:sequence>
+	            <xs:element name="ev" type="xs:string"   />
+	            <xs:element name="einfo" type="xs:string"   />
+	        </xs:sequence>
+	    </xs:complexType>
+	</xs:element>
+</xs:schema>
+

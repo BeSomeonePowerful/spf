@@ -1,0 +1,141 @@
+[2017-03-15_21:52:39] [serverAppTask]INFO:[serverselftask.C:26] ServerSelfTask::procMsg method being called
+[2017-03-15_21:52:39] [serverAppTask]INFO:[serverselftask.C:41] receiving a connect message: clientName: subTask,user: zhang,password: hello456
+[2017-03-15_21:52:39] [serverAppTask]INFO:[serverselftask.C:26] ServerSelfTask::procMsg method being called
+[2017-03-15_21:52:39] [serverAppTask]INFO:[serverselftask.C:41] receiving a connect message: clientName: clientPsaTask,user: wang,password: hello123
+[2017-03-15_21:52:41] [serverAppTask]INFO:[serverselftask.C:26] ServerSelfTask::procMsg method being called
+[2017-03-15_21:52:41] [serverAppTask]INFO:[serverselftask.C:68] receiving a sub message: msgId: 1
+[2017-03-15_21:52:41] [serverAppTask]INFO:[serverselftask.C:72] topic: /mqttclient/pub
+[2017-03-15_21:52:41] [serverAppTask]INFO:[serverselftask.C:26] ServerSelfTask::procMsg method being called
+[2017-03-15_21:52:41] [serverAppTask]INFO:[serverselftask.C:59] receiving a pub message: topic: /mqttclient/pub,content: 1
+[2017-03-15_21:52:42] [serverAppTask]INFO:[serverselftask.C:26] ServerSelfTask::procMsg method being called
+[2017-03-15_21:52:42] [serverAppTask]INFO:[serverselftask.C:59] receiving a pub message: topic: /mqttclient/pub,content: 2
+[2017-03-15_21:52:43] [serverAppTask]INFO:[serverselftask.C:26] ServerSelfTask::procMsg method being called
+[2017-03-15_21:52:43] [serverAppTask]INFO:[serverselftask.C:68] receiving a sub message: msgId: 3
+[2017-03-15_21:52:43] [serverAppTask]INFO:[serverselftask.C:72] topic: /mqttclient/pub
+[2017-03-15_21:52:43] [serverAppTask]INFO:[serverselftask.C:26] ServerSelfTask::procMsg method being called
+[2017-03-15_21:52:43] [serverAppTask]INFO:[serverselftask.C:59] receiving a pub message: topic: /mqttclient/pub,content: 3
+[2017-03-15_21:52:43] [serverAppTask]INFO:[serverselftask.C:26] ServerSelfTask::procMsg method being called
+[2017-03-15_21:52:43] [serverAppTask]INFO:[serverselftask.C:59] receiving a pub message: topic: /mqttclient/pub,content: 4
+[2017-03-15_21:52:44] [serverAppTask]INFO:[serverselftask.C:26] ServerSelfTask::procMsg method being called
+[2017-03-15_21:52:44] [serverAppTask]INFO:[serverselftask.C:68] receiving a sub message: msgId: 5
+[2017-03-15_21:52:44] [serverAppTask]INFO:[serverselftask.C:72] topic: /mqttclient/pub
+[2017-03-15_21:52:44] [serverAppTask]INFO:[serverselftask.C:26] ServerSelfTask::procMsg method being called
+[2017-03-15_21:52:44] [serverAppTask]INFO:[serverselftask.C:59] receiving a pub message: topic: /mqttclient/pub,content: 5
+[2017-03-15_21:52:44] [serverAppTask]INFO:[serverselftask.C:26] ServerSelfTask::procMsg method being called
+[2017-03-15_21:52:44] [serverAppTask]INFO:[serverselftask.C:59] receiving a pub message: topic: /mqttclient/pub,content: 6
+[2017-03-15_21:52:45] [serverAppTask]INFO:[serverselftask.C:26] ServerSelfTask::procMsg method being called
+[2017-03-15_21:52:45] [serverAppTask]INFO:[serverselftask.C:59] receiving a pub message: topic: /mqttclient/pub,content: 7
+[2017-03-15_21:52:46] [serverAppTask]INFO:[serverselftask.C:26] ServerSelfTask::procMsg method being called
+[2017-03-15_21:52:46] [serverAppTask]INFO:[serverselftask.C:68] receiving a sub message: msgId: 8
+[2017-03-15_21:52:46] [serverAppTask]INFO:[serverselftask.C:72] topic: /mqttclient/pub
+[2017-03-15_21:52:46] [serverAppTask]INFO:[serverselftask.C:26] ServerSelfTask::procMsg method being called
+[2017-03-15_21:52:46] [serverAppTask]INFO:[serverselftask.C:59] receiving a pub message: topic: /mqttclient/pub,content: 8
+[2017-03-15_21:52:47] [serverAppTask]INFO:[serverselftask.C:26] ServerSelfTask::procMsg method being called
+[2017-03-15_21:52:47] [serverAppTask]INFO:[serverselftask.C:59] receiving a pub message: topic: /mqttclient/pub,content: 9
+[2017-03-15_21:52:48] [serverAppTask]INFO:[serverselftask.C:26] ServerSelfTask::procMsg method being called
+[2017-03-15_21:52:48] [serverAppTask]INFO:[serverselftask.C:68] receiving a sub message: msgId: 10
+[2017-03-15_21:52:48] [serverAppTask]INFO:[serverselftask.C:72] topic: /mqttclient/pub
+[2017-03-15_21:52:48] [serverAppTask]INFO:[serverselftask.C:26] ServerSelfTask::procMsg method being called
+[2017-03-15_21:52:48] [serverAppTask]INFO:[serverselftask.C:59] receiving a pub message: topic: /mqttclient/pub,content: 10
+[2017-03-15_21:52:49] [serverAppTask]INFO:[serverselftask.C:26] ServerSelfTask::procMsg method being called
+[2017-03-15_21:52:49] [serverAppTask]INFO:[serverselftask.C:59] receiving a pub message: topic: /mqttclient/pub,content: 11
+[2017-03-15_21:52:50] [serverAppTask]INFO:[serverselftask.C:26] ServerSelfTask::procMsg method being called
+[2017-03-15_21:52:50] [serverAppTask]INFO:[serverselftask.C:68] receiving a sub message: msgId: 12
+[2017-03-15_21:52:50] [serverAppTask]INFO:[serverselftask.C:72] topic: /mqttclient/pub
+[2017-03-15_21:52:50] [serverAppTask]INFO:[serverselftask.C:26] ServerSelfTask::procMsg method being called
+[2017-03-15_21:52:50] [serverAppTask]INFO:[serverselftask.C:59] receiving a pub message: topic: /mqttclient/pub,content: 12
+[2017-03-15_21:52:51] [serverAppTask]INFO:[serverselftask.C:26] ServerSelfTask::procMsg method being called
+[2017-03-15_21:52:51] [serverAppTask]INFO:[serverselftask.C:59] receiving a pub message: topic: /mqttclient/pub,content: 13
+[2017-03-15_21:52:52] [serverAppTask]INFO:[serverselftask.C:26] ServerSelfTask::procMsg method being called
+[2017-03-15_21:52:52] [serverAppTask]INFO:[serverselftask.C:68] receiving a sub message: msgId: 14
+[2017-03-15_21:52:52] [serverAppTask]INFO:[serverselftask.C:72] topic: /mqttclient/pub
+[2017-03-15_21:52:52] [serverAppTask]INFO:[serverselftask.C:26] ServerSelfTask::procMsg method being called
+[2017-03-15_21:52:52] [serverAppTask]INFO:[serverselftask.C:59] receiving a pub message: topic: /mqttclient/pub,content: 14
+[2017-03-15_21:52:53] [serverAppTask]INFO:[serverselftask.C:26] ServerSelfTask::procMsg method being called
+[2017-03-15_21:52:53] [serverAppTask]INFO:[serverselftask.C:59] receiving a pub message: topic: /mqttclient/pub,content: 15
+[2017-03-15_21:52:54] [serverAppTask]INFO:[serverselftask.C:26] ServerSelfTask::procMsg method being called
+[2017-03-15_21:52:54] [serverAppTask]INFO:[serverselftask.C:68] receiving a sub message: msgId: 16
+[2017-03-15_21:52:54] [serverAppTask]INFO:[serverselftask.C:72] topic: /mqttclient/pub
+[2017-03-15_21:52:54] [serverAppTask]INFO:[serverselftask.C:26] ServerSelfTask::procMsg method being called
+[2017-03-15_21:52:54] [serverAppTask]INFO:[serverselftask.C:59] receiving a pub message: topic: /mqttclient/pub,content: 16
+[2017-03-15_21:52:55] [serverAppTask]INFO:[serverselftask.C:26] ServerSelfTask::procMsg method being called
+[2017-03-15_21:52:55] [serverAppTask]INFO:[serverselftask.C:59] receiving a pub message: topic: /mqttclient/pub,content: 17
+[2017-03-15_21:52:56] [serverAppTask]INFO:[serverselftask.C:26] ServerSelfTask::procMsg method being called
+[2017-03-15_21:52:56] [serverAppTask]INFO:[serverselftask.C:68] receiving a sub message: msgId: 18
+[2017-03-15_21:52:56] [serverAppTask]INFO:[serverselftask.C:72] topic: /mqttclient/pub
+[2017-03-15_21:52:56] [serverAppTask]INFO:[serverselftask.C:26] ServerSelfTask::procMsg method being called
+[2017-03-15_21:52:56] [serverAppTask]INFO:[serverselftask.C:59] receiving a pub message: topic: /mqttclient/pub,content: 18
+[2017-03-15_21:52:57] [serverAppTask]INFO:[serverselftask.C:26] ServerSelfTask::procMsg method being called
+[2017-03-15_21:52:57] [serverAppTask]INFO:[serverselftask.C:59] receiving a pub message: topic: /mqttclient/pub,content: 19
+[2017-03-15_21:52:58] [serverAppTask]INFO:[serverselftask.C:26] ServerSelfTask::procMsg method being called
+[2017-03-15_21:52:58] [serverAppTask]INFO:[serverselftask.C:68] receiving a sub message: msgId: 20
+[2017-03-15_21:52:58] [serverAppTask]INFO:[serverselftask.C:72] topic: /mqttclient/pub
+[2017-03-15_21:52:58] [serverAppTask]INFO:[serverselftask.C:26] ServerSelfTask::procMsg method being called
+[2017-03-15_21:52:58] [serverAppTask]INFO:[serverselftask.C:59] receiving a pub message: topic: /mqttclient/pub,content: 20
+[2017-03-15_21:52:59] [serverAppTask]INFO:[serverselftask.C:26] ServerSelfTask::procMsg method being called
+[2017-03-15_21:52:59] [serverAppTask]INFO:[serverselftask.C:59] receiving a pub message: topic: /mqttclient/pub,content: 21
+[2017-03-15_21:53:00] [serverAppTask]INFO:[serverselftask.C:26] ServerSelfTask::procMsg method being called
+[2017-03-15_21:53:00] [serverAppTask]INFO:[serverselftask.C:68] receiving a sub message: msgId: 22
+[2017-03-15_21:53:00] [serverAppTask]INFO:[serverselftask.C:72] topic: /mqttclient/pub
+[2017-03-15_21:53:00] [serverAppTask]INFO:[serverselftask.C:26] ServerSelfTask::procMsg method being called
+[2017-03-15_21:53:00] [serverAppTask]INFO:[serverselftask.C:59] receiving a pub message: topic: /mqttclient/pub,content: 22
+[2017-03-15_21:53:01] [serverAppTask]INFO:[serverselftask.C:26] ServerSelfTask::procMsg method being called
+[2017-03-15_21:53:01] [serverAppTask]INFO:[serverselftask.C:59] receiving a pub message: topic: /mqttclient/pub,content: 23
+[2017-03-15_21:53:02] [serverAppTask]INFO:[serverselftask.C:26] ServerSelfTask::procMsg method being called
+[2017-03-15_21:53:02] [serverAppTask]INFO:[serverselftask.C:68] receiving a sub message: msgId: 24
+[2017-03-15_21:53:02] [serverAppTask]INFO:[serverselftask.C:72] topic: /mqttclient/pub
+[2017-03-15_21:53:02] [serverAppTask]INFO:[serverselftask.C:26] ServerSelfTask::procMsg method being called
+[2017-03-15_21:53:02] [serverAppTask]INFO:[serverselftask.C:59] receiving a pub message: topic: /mqttclient/pub,content: 24
+[2017-03-15_21:53:03] [serverAppTask]INFO:[serverselftask.C:26] ServerSelfTask::procMsg method being called
+[2017-03-15_21:53:03] [serverAppTask]INFO:[serverselftask.C:59] receiving a pub message: topic: /mqttclient/pub,content: 25
+[2017-03-15_21:53:04] [serverAppTask]INFO:[serverselftask.C:26] ServerSelfTask::procMsg method being called
+[2017-03-15_21:53:04] [serverAppTask]INFO:[serverselftask.C:68] receiving a sub message: msgId: 26
+[2017-03-15_21:53:04] [serverAppTask]INFO:[serverselftask.C:72] topic: /mqttclient/pub
+[2017-03-15_21:53:04] [serverAppTask]INFO:[serverselftask.C:26] ServerSelfTask::procMsg method being called
+[2017-03-15_21:53:04] [serverAppTask]INFO:[serverselftask.C:59] receiving a pub message: topic: /mqttclient/pub,content: 26
+[2017-03-15_21:53:05] [serverAppTask]INFO:[serverselftask.C:26] ServerSelfTask::procMsg method being called
+[2017-03-15_21:53:05] [serverAppTask]INFO:[serverselftask.C:59] receiving a pub message: topic: /mqttclient/pub,content: 27
+[2017-03-15_21:53:06] [serverAppTask]INFO:[serverselftask.C:26] ServerSelfTask::procMsg method being called
+[2017-03-15_21:53:06] [serverAppTask]INFO:[serverselftask.C:68] receiving a sub message: msgId: 28
+[2017-03-15_21:53:06] [serverAppTask]INFO:[serverselftask.C:72] topic: /mqttclient/pub
+[2017-03-15_21:53:06] [serverAppTask]INFO:[serverselftask.C:26] ServerSelfTask::procMsg method being called
+[2017-03-15_21:53:06] [serverAppTask]INFO:[serverselftask.C:59] receiving a pub message: topic: /mqttclient/pub,content: 28
+[2017-03-15_21:57:54] [serverAppTask]INFO:[serverselftask.C:26] ServerSelfTask::procMsg method being called
+[2017-03-15_21:57:54] [serverAppTask]INFO:[serverselftask.C:41] receiving a connect message: clientName: subTask,user: zhang,password: hello456
+[2017-03-15_21:57:54] [serverAppTask]INFO:[serverselftask.C:26] ServerSelfTask::procMsg method being called
+[2017-03-15_21:57:54] [serverAppTask]INFO:[serverselftask.C:41] receiving a connect message: clientName: clientPsaTask,user: wang,password: hello123
+[2017-03-15_21:57:56] [serverAppTask]INFO:[serverselftask.C:26] ServerSelfTask::procMsg method being called
+[2017-03-15_21:57:56] [serverAppTask]INFO:[serverselftask.C:68] receiving a sub message: msgId: 1
+[2017-03-15_21:57:56] [serverAppTask]INFO:[serverselftask.C:72] topic: /mqttclient/pub
+[2017-03-15_21:57:56] [serverAppTask]INFO:[serverselftask.C:26] ServerSelfTask::procMsg method being called
+[2017-03-15_21:57:56] [serverAppTask]INFO:[serverselftask.C:59] receiving a pub message: topic: /mqttclient/pub,content: 1
+[2017-03-15_21:57:57] [serverAppTask]INFO:[serverselftask.C:26] ServerSelfTask::procMsg method being called
+[2017-03-15_21:57:57] [serverAppTask]INFO:[serverselftask.C:59] receiving a pub message: topic: /mqttclient/pub,content: 2
+[2017-03-15_21:57:58] [serverAppTask]INFO:[serverselftask.C:26] ServerSelfTask::procMsg method being called
+[2017-03-15_21:57:58] [serverAppTask]INFO:[serverselftask.C:68] receiving a sub message: msgId: 3
+[2017-03-15_21:57:58] [serverAppTask]INFO:[serverselftask.C:72] topic: /mqttclient/pub
+[2017-03-15_21:57:58] [serverAppTask]INFO:[serverselftask.C:26] ServerSelfTask::procMsg method being called
+[2017-03-15_21:57:58] [serverAppTask]INFO:[serverselftask.C:59] receiving a pub message: topic: /mqttclient/pub,content: 3
+[2017-03-15_21:57:58] [serverAppTask]INFO:[serverselftask.C:26] ServerSelfTask::procMsg method being called
+[2017-03-15_21:57:58] [serverAppTask]INFO:[serverselftask.C:59] receiving a pub message: topic: /mqttclient/pub,content: 4
+[2017-03-15_21:57:59] [serverAppTask]INFO:[serverselftask.C:26] ServerSelfTask::procMsg method being called
+[2017-03-15_21:57:59] [serverAppTask]INFO:[serverselftask.C:68] receiving a sub message: msgId: 5
+[2017-03-15_21:57:59] [serverAppTask]INFO:[serverselftask.C:72] topic: /mqttclient/pub
+[2017-03-15_21:57:59] [serverAppTask]INFO:[serverselftask.C:26] ServerSelfTask::procMsg method being called
+[2017-03-15_21:57:59] [serverAppTask]INFO:[serverselftask.C:59] receiving a pub message: topic: /mqttclient/pub,content: 5
+[2017-03-15_21:57:59] [serverAppTask]INFO:[serverselftask.C:26] ServerSelfTask::procMsg method being called
+[2017-03-15_21:57:59] [serverAppTask]INFO:[serverselftask.C:59] receiving a pub message: topic: /mqttclient/pub,content: 6
+[2017-03-15_21:58:00] [serverAppTask]INFO:[serverselftask.C:26] ServerSelfTask::procMsg method being called
+[2017-03-15_21:58:00] [serverAppTask]INFO:[serverselftask.C:59] receiving a pub message: topic: /mqttclient/pub,content: 7
+[2017-03-15_21:58:01] [serverAppTask]INFO:[serverselftask.C:26] ServerSelfTask::procMsg method being called
+[2017-03-15_21:58:01] [serverAppTask]INFO:[serverselftask.C:68] receiving a sub message: msgId: 8
+[2017-03-15_21:58:01] [serverAppTask]INFO:[serverselftask.C:72] topic: /mqttclient/pub
+[2017-03-15_21:58:01] [serverAppTask]INFO:[serverselftask.C:26] ServerSelfTask::procMsg method being called
+[2017-03-15_21:58:01] [serverAppTask]INFO:[serverselftask.C:59] receiving a pub message: topic: /mqttclient/pub,content: 8
+[2017-03-15_21:58:02] [serverAppTask]INFO:[serverselftask.C:26] ServerSelfTask::procMsg method being called
+[2017-03-15_21:58:02] [serverAppTask]INFO:[serverselftask.C:59] receiving a pub message: topic: /mqttclient/pub,content: 9
+[2017-03-15_21:58:03] [serverAppTask]INFO:[serverselftask.C:26] ServerSelfTask::procMsg method being called
+[2017-03-15_21:58:03] [serverAppTask]INFO:[serverselftask.C:68] receiving a sub message: msgId: 10
+[2017-03-15_21:58:03] [serverAppTask]INFO:[serverselftask.C:72] topic: /mqttclient/pub
+[2017-03-15_21:58:03] [serverAppTask]INFO:[serverselftask.C:26] ServerSelfTask::procMsg method being called
+[2017-03-15_21:58:03] [serverAppTask]INFO:[serverselftask.C:59] receiving a pub message: topic: /mqttclient/pub,content: 10

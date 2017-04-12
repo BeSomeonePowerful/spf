@@ -1,0 +1,6 @@
+mqttservertask will block on the message queue,the internal machenism of message queue,and when will
+the task be blocked.
+
+1.to resolve problems related to messages being merged into one
+onSending,add the delimiter
+onReceiving,remove the delimiter

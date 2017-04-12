@@ -1,0 +1,25 @@
+#ifndef _MSGDEF_EVENTMSG_H
+#define _MSGDEF_EVENTMSG_H
+
+const UINT EVENT_MESSAGE_TYPE=11;
+
+class TEventMsgHdr: public TCtrlMsg
+{
+public:
+	UINT	status;		//EventMsg ActCode (1=set observe filter; 2=clear observe filter; 3=event trigger)or ReplyCode
+	UINT	cseq;		//EventMsg Sequence, Response must same with Request
+	CStr	observer;	//EventMsg User or Subscriber(观察者)
+	CStr	trigger;	//EventMsg Enabler or Notifier(检测与触发者)
+	CStr 	eid;		//EventID (监测事件的唯一标识，如果设置多个监测条件，则每一个设置的监测条件会产生一个eid，由trigger产生)
+};
+
+class TEventMsgBody: public TMsgBody
+{
+public:
+    CStr	ev;			//EventName（监测事件的名字）
+	CStr	einfo;		//Event Info（监测事件的内容/条件）
+}=
+EVENT_MESSAGE_REQ(110)|
+EVENT_MESSAGE_RSP(111);
+
+#endif

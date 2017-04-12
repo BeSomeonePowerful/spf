@@ -1,0 +1,496 @@
+[2017-03-15_21:52:37] [subTask]INFO:[../../task/psathread.C:40] ###select::result: 104: 0
+[2017-03-15_21:52:37] [subTask]INFO:[../../task/psathread.C:40] ###select::result: 104: 0
+[2017-03-15_21:52:38] [subTask]INFO:[../../task/psathread.C:40] ###select::result: 104: 0
+[2017-03-15_21:52:39] [subTask]INFO:[../../task/psathread.C:40] ###select::result: 104: 0
+[2017-03-15_21:52:39] [subTask]INFO:[subtask.C:120] calling MqttClientTask::onTimeOut method
+[2017-03-15_21:52:39] [subTask]INFO:[comserv/socket.C:1947] Open client socket succeed. remoteAddr: 127.0.0.1:9002. clientPort: 0.  sock_fd: 5
+[2017-03-15_21:52:39] [subTask]INFO:[../../task/psathread.C:40] ###select::result: 104: 1
+[2017-03-15_21:52:39] [subTask]INFO:[../../facility/psamqtt-wangpan/mqttclient.C:328] CMqttClientTcpLink::processSend method being called
+[2017-03-15_21:52:39] [subTask]INFO:[../../facility/psamqtt-wangpan/mqttclient.C:331] CMqttClientTcpLink::processSend method being called with data
+[2017-03-15_21:52:39] [subTask]INFO:[../../facility/psamqtt-wangpan/mqttclient.C:337] CMqttClientTcpLink::processSend after stateMachine
+[2017-03-15_21:52:39] [subTask]INFO:[../../facility/psamqtt-wangpan/mqttclient.C:345] CMqttClientTcpLink::processSend after pointer casting
+[2017-03-15_21:52:39] [subTask]INFO:[../../facility/psamqtt-wangpan/mqttlink.C:796] send connect message
+[2017-03-15_21:52:40] [subTask]INFO:[../../task/psathread.C:40] ###select::result: 104: 2
+[2017-03-15_21:52:40] [subTask]INFO:[../../facility/psamqtt-wangpan/mqttclient.C:328] CMqttClientTcpLink::processSend method being called
+[2017-03-15_21:52:40] [subTask]INFO:[../../facility/psamqtt-wangpan/mqttclient.C:331] CMqttClientTcpLink::processSend method being called with data
+[2017-03-15_21:52:40] [subTask]ERROR:[statemachine.C:53] ###ERRRO:trying to send a subscribe while not in CONNECTED_STATE
+[2017-03-15_21:52:40] [subTask]INFO:[../../facility/psamqtt-wangpan/mqttclient.C:337] CMqttClientTcpLink::processSend after stateMachine
+[2017-03-15_21:52:40] [subTask]INFO:[../../facility/psamqtt-wangpan/mqttclient.C:525] CMqttClientTcpLink::processRecv method being called
+[2017-03-15_21:52:40] [subTask]INFO:[../../facility/psamqtt-wangpan/mqttlink.C:712] received connack message: 0
+[2017-03-15_21:52:40] [subTask]INFO:[../../facility/psamqtt-wangpan/mqttlink.C:335] CMqttLink::responseService before protocolLogic
+[2017-03-15_21:52:40] [subTask]INFO:[../../facility/psamqtt-wangpan/mqttclient.C:598] CMqttClientTcpLink::protocolLogic before calling sendToTask
+[2017-03-15_21:52:40] [subTask]INFO:[../../facility/psamqtt-wangpan/mqttlink.C:337] CMqttLink::responseService after protocolLogic
+[2017-03-15_21:52:40] [subTask]ERROR:[../../facility/psamqtt-wangpan/mqttlink.C:100] CMqttLink::msgParse, message length = 0
+[2017-03-15_21:52:41] [subTask]INFO:[../../task/psathread.C:40] ###select::result: 104: 1
+[2017-03-15_21:52:41] [subTask]INFO:[../../facility/psamqtt-wangpan/mqttclient.C:328] CMqttClientTcpLink::processSend method being called
+[2017-03-15_21:52:41] [subTask]INFO:[../../facility/psamqtt-wangpan/mqttclient.C:331] CMqttClientTcpLink::processSend method being called with data
+[2017-03-15_21:52:41] [subTask]INFO:[../../facility/psamqtt-wangpan/mqttclient.C:337] CMqttClientTcpLink::processSend after stateMachine
+[2017-03-15_21:52:42] [subTask]INFO:[../../task/psathread.C:40] ###select::result: 104: 2
+[2017-03-15_21:52:42] [subTask]INFO:[../../facility/psamqtt-wangpan/mqttclient.C:328] CMqttClientTcpLink::processSend method being called
+[2017-03-15_21:52:42] [subTask]INFO:[../../facility/psamqtt-wangpan/mqttclient.C:331] CMqttClientTcpLink::processSend method being called with data
+[2017-03-15_21:52:42] [subTask]ERROR:[statemachine.C:53] ###ERRRO:trying to send a subscribe while not in CONNECTED_STATE
+[2017-03-15_21:52:42] [subTask]INFO:[../../facility/psamqtt-wangpan/mqttclient.C:337] CMqttClientTcpLink::processSend after stateMachine
+[2017-03-15_21:52:42] [subTask]INFO:[../../facility/psamqtt-wangpan/mqttclient.C:525] CMqttClientTcpLink::processRecv method being called
+[2017-03-15_21:52:42] [subTask]INFO:[../../facility/psamqtt-wangpan/mqttlink.C:317] CMqttLink::invokeService: Before calling protocolLogic:
+[2017-03-15_21:52:42] [subTask]INFO:[../../facility/psamqtt-wangpan/mqttclient.C:598] CMqttClientTcpLink::protocolLogic before calling sendToTask
+[2017-03-15_21:52:42] [subTask]INFO:[../../facility/psamqtt-wangpan/mqttlink.C:319] CMqttLink::invokeService: after calling protocolLogic:
+[2017-03-15_21:52:42] [subTask]INFO:[../../facility/psamqtt-wangpan/mqttlink.C:335] CMqttLink::responseService before protocolLogic
+[2017-03-15_21:52:42] [subTask]INFO:[../../facility/psamqtt-wangpan/mqttclient.C:598] CMqttClientTcpLink::protocolLogic before calling sendToTask
+[2017-03-15_21:52:42] [subTask]INFO:[../../facility/psamqtt-wangpan/mqttlink.C:337] CMqttLink::responseService after protocolLogic
+[2017-03-15_21:52:43] [subTask]INFO:[../../task/psathread.C:40] ###select::result: 104: 2
+[2017-03-15_21:52:43] [subTask]INFO:[../../facility/psamqtt-wangpan/mqttclient.C:328] CMqttClientTcpLink::processSend method being called
+[2017-03-15_21:52:43] [subTask]INFO:[../../facility/psamqtt-wangpan/mqttclient.C:331] CMqttClientTcpLink::processSend method being called with data
+[2017-03-15_21:52:43] [subTask]INFO:[../../facility/psamqtt-wangpan/mqttclient.C:337] CMqttClientTcpLink::processSend after stateMachine
+[2017-03-15_21:52:43] [subTask]INFO:[../../facility/psamqtt-wangpan/mqttclient.C:525] CMqttClientTcpLink::processRecv method being called
+[2017-03-15_21:52:43] [subTask]INFO:[../../facility/psamqtt-wangpan/mqttlink.C:317] CMqttLink::invokeService: Before calling protocolLogic:
+[2017-03-15_21:52:43] [subTask]INFO:[../../facility/psamqtt-wangpan/mqttclient.C:598] CMqttClientTcpLink::protocolLogic before calling sendToTask
+[2017-03-15_21:52:43] [subTask]INFO:[../../facility/psamqtt-wangpan/mqttlink.C:319] CMqttLink::invokeService: after calling protocolLogic:
+[2017-03-15_21:52:44] [subTask]INFO:[../../task/psathread.C:40] ###select::result: 104: 2
+[2017-03-15_21:52:44] [subTask]INFO:[../../facility/psamqtt-wangpan/mqttclient.C:328] CMqttClientTcpLink::processSend method being called
+[2017-03-15_21:52:44] [subTask]INFO:[../../facility/psamqtt-wangpan/mqttclient.C:331] CMqttClientTcpLink::processSend method being called with data
+[2017-03-15_21:52:44] [subTask]ERROR:[statemachine.C:53] ###ERRRO:trying to send a subscribe while not in CONNECTED_STATE
+[2017-03-15_21:52:44] [subTask]INFO:[../../facility/psamqtt-wangpan/mqttclient.C:337] CMqttClientTcpLink::processSend after stateMachine
+[2017-03-15_21:52:44] [subTask]INFO:[../../facility/psamqtt-wangpan/mqttclient.C:525] CMqttClientTcpLink::processRecv method being called
+[2017-03-15_21:52:44] [subTask]INFO:[../../facility/psamqtt-wangpan/mqttlink.C:317] CMqttLink::invokeService: Before calling protocolLogic:
+[2017-03-15_21:52:44] [subTask]INFO:[../../facility/psamqtt-wangpan/mqttclient.C:598] CMqttClientTcpLink::protocolLogic before calling sendToTask
+[2017-03-15_21:52:44] [subTask]INFO:[../../facility/psamqtt-wangpan/mqttlink.C:319] CMqttLink::invokeService: after calling protocolLogic:
+[2017-03-15_21:52:44] [subTask]INFO:[../../facility/psamqtt-wangpan/mqttlink.C:317] CMqttLink::invokeService: Before calling protocolLogic:
+[2017-03-15_21:52:44] [subTask]INFO:[../../facility/psamqtt-wangpan/mqttclient.C:598] CMqttClientTcpLink::protocolLogic before calling sendToTask
+[2017-03-15_21:52:44] [subTask]INFO:[../../facility/psamqtt-wangpan/mqttlink.C:319] CMqttLink::invokeService: after calling protocolLogic:
+[2017-03-15_21:52:44] [subTask]INFO:[../../facility/psamqtt-wangpan/mqttlink.C:335] CMqttLink::responseService before protocolLogic
+[2017-03-15_21:52:44] [subTask]INFO:[../../facility/psamqtt-wangpan/mqttclient.C:598] CMqttClientTcpLink::protocolLogic before calling sendToTask
+[2017-03-15_21:52:44] [subTask]INFO:[../../facility/psamqtt-wangpan/mqttlink.C:337] CMqttLink::responseService after protocolLogic
+[2017-03-15_21:52:44] [subTask]ERROR:[statemachine.C:242] invalid timerKey: 3
+[2017-03-15_21:52:44] [subTask]INFO:[../../task/psathread.C:40] ###select::result: 104: 1
+[2017-03-15_21:52:44] [subTask]INFO:[../../facility/psamqtt-wangpan/mqttclient.C:328] CMqttClientTcpLink::processSend method being called
+[2017-03-15_21:52:44] [subTask]INFO:[../../facility/psamqtt-wangpan/mqttclient.C:331] CMqttClientTcpLink::processSend method being called with data
+[2017-03-15_21:52:44] [subTask]INFO:[../../facility/psamqtt-wangpan/mqttclient.C:337] CMqttClientTcpLink::processSend after stateMachine
+[2017-03-15_21:52:44] [subTask]ERROR:[statemachine.C:242] invalid timerKey: 5
+[2017-03-15_21:52:44] [subTask]INFO:[../../task/psathread.C:40] ###select::result: 104: 1
+[2017-03-15_21:52:44] [subTask]INFO:[../../facility/psamqtt-wangpan/mqttclient.C:328] CMqttClientTcpLink::processSend method being called
+[2017-03-15_21:52:44] [subTask]INFO:[../../facility/psamqtt-wangpan/mqttclient.C:331] CMqttClientTcpLink::processSend method being called with data
+[2017-03-15_21:52:44] [subTask]ERROR:[statemachine.C:53] ###ERRRO:trying to send a subscribe while not in CONNECTED_STATE
+[2017-03-15_21:52:44] [subTask]INFO:[../../facility/psamqtt-wangpan/mqttclient.C:337] CMqttClientTcpLink::processSend after stateMachine
+[2017-03-15_21:52:45] [subTask]INFO:[../../task/psathread.C:40] ###select::result: 104: 2
+[2017-03-15_21:52:45] [subTask]INFO:[../../facility/psamqtt-wangpan/mqttclient.C:328] CMqttClientTcpLink::processSend method being called
+[2017-03-15_21:52:45] [subTask]INFO:[../../facility/psamqtt-wangpan/mqttclient.C:331] CMqttClientTcpLink::processSend method being called with data
+[2017-03-15_21:52:45] [subTask]ERROR:[statemachine.C:53] ###ERRRO:trying to send a subscribe while not in CONNECTED_STATE
+[2017-03-15_21:52:45] [subTask]INFO:[../../facility/psamqtt-wangpan/mqttclient.C:337] CMqttClientTcpLink::processSend after stateMachine
+[2017-03-15_21:52:45] [subTask]INFO:[../../facility/psamqtt-wangpan/mqttclient.C:525] CMqttClientTcpLink::processRecv method being called
+[2017-03-15_21:52:45] [subTask]INFO:[../../facility/psamqtt-wangpan/mqttlink.C:317] CMqttLink::invokeService: Before calling protocolLogic:
+[2017-03-15_21:52:45] [subTask]INFO:[../../facility/psamqtt-wangpan/mqttclient.C:598] CMqttClientTcpLink::protocolLogic before calling sendToTask
+[2017-03-15_21:52:45] [subTask]INFO:[../../facility/psamqtt-wangpan/mqttlink.C:319] CMqttLink::invokeService: after calling protocolLogic:
+[2017-03-15_21:52:45] [subTask]INFO:[../../facility/psamqtt-wangpan/mqttlink.C:317] CMqttLink::invokeService: Before calling protocolLogic:
+[2017-03-15_21:52:45] [subTask]INFO:[../../facility/psamqtt-wangpan/mqttclient.C:598] CMqttClientTcpLink::protocolLogic before calling sendToTask
+[2017-03-15_21:52:45] [subTask]INFO:[../../facility/psamqtt-wangpan/mqttlink.C:319] CMqttLink::invokeService: after calling protocolLogic:
+[2017-03-15_21:52:45] [subTask]INFO:[../../facility/psamqtt-wangpan/mqttlink.C:335] CMqttLink::responseService before protocolLogic
+[2017-03-15_21:52:45] [subTask]INFO:[../../facility/psamqtt-wangpan/mqttclient.C:598] CMqttClientTcpLink::protocolLogic before calling sendToTask
+[2017-03-15_21:52:45] [subTask]INFO:[../../facility/psamqtt-wangpan/mqttlink.C:337] CMqttLink::responseService after protocolLogic
+[2017-03-15_21:52:45] [subTask]ERROR:[statemachine.C:242] invalid timerKey: 6
+[2017-03-15_21:52:45] [subTask]INFO:[../../task/psathread.C:40] ###select::result: 104: 1
+[2017-03-15_21:52:45] [subTask]INFO:[../../facility/psamqtt-wangpan/mqttclient.C:328] CMqttClientTcpLink::processSend method being called
+[2017-03-15_21:52:46] [subTask]INFO:[../../task/psathread.C:40] ###select::result: 104: 2
+[2017-03-15_21:52:46] [subTask]INFO:[../../facility/psamqtt-wangpan/mqttclient.C:328] CMqttClientTcpLink::processSend method being called
+[2017-03-15_21:52:46] [subTask]INFO:[../../facility/psamqtt-wangpan/mqttclient.C:331] CMqttClientTcpLink::processSend method being called with data
+[2017-03-15_21:52:46] [subTask]INFO:[../../facility/psamqtt-wangpan/mqttclient.C:337] CMqttClientTcpLink::processSend after stateMachine
+[2017-03-15_21:52:46] [subTask]INFO:[../../facility/psamqtt-wangpan/mqttclient.C:525] CMqttClientTcpLink::processRecv method being called
+[2017-03-15_21:52:46] [subTask]INFO:[../../facility/psamqtt-wangpan/mqttlink.C:317] CMqttLink::invokeService: Before calling protocolLogic:
+[2017-03-15_21:52:46] [subTask]INFO:[../../facility/psamqtt-wangpan/mqttclient.C:598] CMqttClientTcpLink::protocolLogic before calling sendToTask
+[2017-03-15_21:52:46] [subTask]INFO:[../../facility/psamqtt-wangpan/mqttlink.C:319] CMqttLink::invokeService: after calling protocolLogic:
+[2017-03-15_21:52:46] [subTask]ERROR:[statemachine.C:242] invalid timerKey: 8
+[2017-03-15_21:52:46] [subTask]INFO:[../../task/psathread.C:40] ###select::result: 104: 1
+[2017-03-15_21:52:46] [subTask]INFO:[../../facility/psamqtt-wangpan/mqttclient.C:328] CMqttClientTcpLink::processSend method being called
+[2017-03-15_21:52:47] [subTask]INFO:[../../task/psathread.C:40] ###select::result: 104: 2
+[2017-03-15_21:52:47] [subTask]INFO:[../../facility/psamqtt-wangpan/mqttclient.C:328] CMqttClientTcpLink::processSend method being called
+[2017-03-15_21:52:47] [subTask]INFO:[../../facility/psamqtt-wangpan/mqttclient.C:331] CMqttClientTcpLink::processSend method being called with data
+[2017-03-15_21:52:47] [subTask]ERROR:[statemachine.C:53] ###ERRRO:trying to send a subscribe while not in CONNECTED_STATE
+[2017-03-15_21:52:47] [subTask]INFO:[../../facility/psamqtt-wangpan/mqttclient.C:337] CMqttClientTcpLink::processSend after stateMachine
+[2017-03-15_21:52:47] [subTask]INFO:[../../facility/psamqtt-wangpan/mqttclient.C:525] CMqttClientTcpLink::processRecv method being called
+[2017-03-15_21:52:47] [subTask]INFO:[../../facility/psamqtt-wangpan/mqttlink.C:317] CMqttLink::invokeService: Before calling protocolLogic:
+[2017-03-15_21:52:47] [subTask]INFO:[../../facility/psamqtt-wangpan/mqttclient.C:598] CMqttClientTcpLink::protocolLogic before calling sendToTask
+[2017-03-15_21:52:47] [subTask]INFO:[../../facility/psamqtt-wangpan/mqttlink.C:319] CMqttLink::invokeService: after calling protocolLogic:
+[2017-03-15_21:52:47] [subTask]INFO:[../../facility/psamqtt-wangpan/mqttlink.C:335] CMqttLink::responseService before protocolLogic
+[2017-03-15_21:52:47] [subTask]INFO:[../../facility/psamqtt-wangpan/mqttclient.C:598] CMqttClientTcpLink::protocolLogic before calling sendToTask
+[2017-03-15_21:52:47] [subTask]INFO:[../../facility/psamqtt-wangpan/mqttlink.C:337] CMqttLink::responseService after protocolLogic
+[2017-03-15_21:52:47] [subTask]ERROR:[statemachine.C:242] invalid timerKey: 11
+[2017-03-15_21:52:47] [subTask]INFO:[../../task/psathread.C:40] ###select::result: 104: 1
+[2017-03-15_21:52:47] [subTask]INFO:[../../facility/psamqtt-wangpan/mqttclient.C:328] CMqttClientTcpLink::processSend method being called
+[2017-03-15_21:52:47] [subTask]ERROR:[statemachine.C:242] invalid timerKey: 9
+[2017-03-15_21:52:47] [subTask]INFO:[../../task/psathread.C:40] ###select::result: 104: 1
+[2017-03-15_21:52:47] [subTask]INFO:[../../facility/psamqtt-wangpan/mqttclient.C:328] CMqttClientTcpLink::processSend method being called
+[2017-03-15_21:52:48] [subTask]INFO:[../../task/psathread.C:40] ###select::result: 104: 2
+[2017-03-15_21:52:48] [subTask]INFO:[../../facility/psamqtt-wangpan/mqttclient.C:328] CMqttClientTcpLink::processSend method being called
+[2017-03-15_21:52:48] [subTask]INFO:[../../facility/psamqtt-wangpan/mqttclient.C:331] CMqttClientTcpLink::processSend method being called with data
+[2017-03-15_21:52:48] [subTask]INFO:[../../facility/psamqtt-wangpan/mqttclient.C:337] CMqttClientTcpLink::processSend after stateMachine
+[2017-03-15_21:52:48] [subTask]INFO:[../../facility/psamqtt-wangpan/mqttclient.C:525] CMqttClientTcpLink::processRecv method being called
+[2017-03-15_21:52:48] [subTask]INFO:[../../facility/psamqtt-wangpan/mqttlink.C:317] CMqttLink::invokeService: Before calling protocolLogic:
+[2017-03-15_21:52:48] [subTask]INFO:[../../facility/psamqtt-wangpan/mqttclient.C:598] CMqttClientTcpLink::protocolLogic before calling sendToTask
+[2017-03-15_21:52:48] [subTask]INFO:[../../facility/psamqtt-wangpan/mqttlink.C:319] CMqttLink::invokeService: after calling protocolLogic:
+[2017-03-15_21:52:48] [subTask]ERROR:[statemachine.C:242] invalid timerKey: 12
+[2017-03-15_21:52:48] [subTask]INFO:[../../task/psathread.C:40] ###select::result: 104: 1
+[2017-03-15_21:52:48] [subTask]INFO:[../../facility/psamqtt-wangpan/mqttclient.C:328] CMqttClientTcpLink::processSend method being called
+[2017-03-15_21:52:49] [subTask]INFO:[../../task/psathread.C:40] ###select::result: 104: 2
+[2017-03-15_21:52:49] [subTask]INFO:[../../facility/psamqtt-wangpan/mqttclient.C:328] CMqttClientTcpLink::processSend method being called
+[2017-03-15_21:52:49] [subTask]INFO:[../../facility/psamqtt-wangpan/mqttclient.C:331] CMqttClientTcpLink::processSend method being called with data
+[2017-03-15_21:52:49] [subTask]ERROR:[statemachine.C:53] ###ERRRO:trying to send a subscribe while not in CONNECTED_STATE
+[2017-03-15_21:52:49] [subTask]INFO:[../../facility/psamqtt-wangpan/mqttclient.C:337] CMqttClientTcpLink::processSend after stateMachine
+[2017-03-15_21:52:49] [subTask]INFO:[../../facility/psamqtt-wangpan/mqttclient.C:525] CMqttClientTcpLink::processRecv method being called
+[2017-03-15_21:52:49] [subTask]INFO:[../../facility/psamqtt-wangpan/mqttlink.C:317] CMqttLink::invokeService: Before calling protocolLogic:
+[2017-03-15_21:52:49] [subTask]INFO:[../../facility/psamqtt-wangpan/mqttclient.C:598] CMqttClientTcpLink::protocolLogic before calling sendToTask
+[2017-03-15_21:52:49] [subTask]INFO:[../../facility/psamqtt-wangpan/mqttlink.C:319] CMqttLink::invokeService: after calling protocolLogic:
+[2017-03-15_21:52:49] [subTask]INFO:[../../facility/psamqtt-wangpan/mqttlink.C:335] CMqttLink::responseService before protocolLogic
+[2017-03-15_21:52:49] [subTask]INFO:[../../facility/psamqtt-wangpan/mqttclient.C:598] CMqttClientTcpLink::protocolLogic before calling sendToTask
+[2017-03-15_21:52:49] [subTask]INFO:[../../facility/psamqtt-wangpan/mqttlink.C:337] CMqttLink::responseService after protocolLogic
+[2017-03-15_21:52:49] [subTask]ERROR:[statemachine.C:242] invalid timerKey: 14
+[2017-03-15_21:52:49] [subTask]INFO:[../../task/psathread.C:40] ###select::result: 104: 1
+[2017-03-15_21:52:49] [subTask]INFO:[../../facility/psamqtt-wangpan/mqttclient.C:328] CMqttClientTcpLink::processSend method being called
+[2017-03-15_21:52:50] [subTask]INFO:[../../task/psathread.C:40] ###select::result: 104: 2
+[2017-03-15_21:52:50] [subTask]INFO:[../../facility/psamqtt-wangpan/mqttclient.C:328] CMqttClientTcpLink::processSend method being called
+[2017-03-15_21:52:50] [subTask]INFO:[../../facility/psamqtt-wangpan/mqttclient.C:331] CMqttClientTcpLink::processSend method being called with data
+[2017-03-15_21:52:50] [subTask]INFO:[../../facility/psamqtt-wangpan/mqttclient.C:337] CMqttClientTcpLink::processSend after stateMachine
+[2017-03-15_21:52:50] [subTask]INFO:[../../facility/psamqtt-wangpan/mqttclient.C:525] CMqttClientTcpLink::processRecv method being called
+[2017-03-15_21:52:50] [subTask]INFO:[../../facility/psamqtt-wangpan/mqttlink.C:317] CMqttLink::invokeService: Before calling protocolLogic:
+[2017-03-15_21:52:50] [subTask]INFO:[../../facility/psamqtt-wangpan/mqttclient.C:598] CMqttClientTcpLink::protocolLogic before calling sendToTask
+[2017-03-15_21:52:50] [subTask]INFO:[../../facility/psamqtt-wangpan/mqttlink.C:319] CMqttLink::invokeService: after calling protocolLogic:
+[2017-03-15_21:52:51] [subTask]INFO:[../../task/psathread.C:40] ###select::result: 104: 2
+[2017-03-15_21:52:51] [subTask]INFO:[../../facility/psamqtt-wangpan/mqttclient.C:328] CMqttClientTcpLink::processSend method being called
+[2017-03-15_21:52:51] [subTask]INFO:[../../facility/psamqtt-wangpan/mqttclient.C:331] CMqttClientTcpLink::processSend method being called with data
+[2017-03-15_21:52:51] [subTask]ERROR:[statemachine.C:53] ###ERRRO:trying to send a subscribe while not in CONNECTED_STATE
+[2017-03-15_21:52:51] [subTask]INFO:[../../facility/psamqtt-wangpan/mqttclient.C:337] CMqttClientTcpLink::processSend after stateMachine
+[2017-03-15_21:52:51] [subTask]INFO:[../../facility/psamqtt-wangpan/mqttclient.C:525] CMqttClientTcpLink::processRecv method being called
+[2017-03-15_21:52:51] [subTask]INFO:[../../facility/psamqtt-wangpan/mqttlink.C:317] CMqttLink::invokeService: Before calling protocolLogic:
+[2017-03-15_21:52:51] [subTask]INFO:[../../facility/psamqtt-wangpan/mqttclient.C:598] CMqttClientTcpLink::protocolLogic before calling sendToTask
+[2017-03-15_21:52:51] [subTask]INFO:[../../facility/psamqtt-wangpan/mqttlink.C:319] CMqttLink::invokeService: after calling protocolLogic:
+[2017-03-15_21:52:51] [subTask]INFO:[../../facility/psamqtt-wangpan/mqttlink.C:335] CMqttLink::responseService before protocolLogic
+[2017-03-15_21:52:51] [subTask]INFO:[../../facility/psamqtt-wangpan/mqttclient.C:598] CMqttClientTcpLink::protocolLogic before calling sendToTask
+[2017-03-15_21:52:51] [subTask]INFO:[../../facility/psamqtt-wangpan/mqttlink.C:337] CMqttLink::responseService after protocolLogic
+[2017-03-15_21:52:51] [subTask]ERROR:[statemachine.C:242] invalid timerKey: 15
+[2017-03-15_21:52:51] [subTask]INFO:[../../task/psathread.C:40] ###select::result: 104: 1
+[2017-03-15_21:52:51] [subTask]INFO:[../../facility/psamqtt-wangpan/mqttclient.C:328] CMqttClientTcpLink::processSend method being called
+[2017-03-15_21:52:51] [subTask]ERROR:[statemachine.C:242] invalid timerKey: 17
+[2017-03-15_21:52:51] [subTask]INFO:[../../task/psathread.C:40] ###select::result: 104: 1
+[2017-03-15_21:52:51] [subTask]INFO:[../../facility/psamqtt-wangpan/mqttclient.C:328] CMqttClientTcpLink::processSend method being called
+[2017-03-15_21:52:52] [subTask]INFO:[../../task/psathread.C:40] ###select::result: 104: 2
+[2017-03-15_21:52:52] [subTask]INFO:[../../facility/psamqtt-wangpan/mqttclient.C:328] CMqttClientTcpLink::processSend method being called
+[2017-03-15_21:52:52] [subTask]INFO:[../../facility/psamqtt-wangpan/mqttclient.C:331] CMqttClientTcpLink::processSend method being called with data
+[2017-03-15_21:52:52] [subTask]INFO:[../../facility/psamqtt-wangpan/mqttclient.C:337] CMqttClientTcpLink::processSend after stateMachine
+[2017-03-15_21:52:52] [subTask]INFO:[../../facility/psamqtt-wangpan/mqttclient.C:525] CMqttClientTcpLink::processRecv method being called
+[2017-03-15_21:52:52] [subTask]INFO:[../../facility/psamqtt-wangpan/mqttlink.C:317] CMqttLink::invokeService: Before calling protocolLogic:
+[2017-03-15_21:52:52] [subTask]INFO:[../../facility/psamqtt-wangpan/mqttclient.C:598] CMqttClientTcpLink::protocolLogic before calling sendToTask
+[2017-03-15_21:52:52] [subTask]INFO:[../../facility/psamqtt-wangpan/mqttlink.C:319] CMqttLink::invokeService: after calling protocolLogic:
+[2017-03-15_21:52:53] [subTask]INFO:[../../task/psathread.C:40] ###select::result: 104: 2
+[2017-03-15_21:52:53] [subTask]INFO:[../../facility/psamqtt-wangpan/mqttclient.C:328] CMqttClientTcpLink::processSend method being called
+[2017-03-15_21:52:53] [subTask]INFO:[../../facility/psamqtt-wangpan/mqttclient.C:331] CMqttClientTcpLink::processSend method being called with data
+[2017-03-15_21:52:53] [subTask]ERROR:[statemachine.C:53] ###ERRRO:trying to send a subscribe while not in CONNECTED_STATE
+[2017-03-15_21:52:53] [subTask]INFO:[../../facility/psamqtt-wangpan/mqttclient.C:337] CMqttClientTcpLink::processSend after stateMachine
+[2017-03-15_21:52:53] [subTask]INFO:[../../facility/psamqtt-wangpan/mqttclient.C:525] CMqttClientTcpLink::processRecv method being called
+[2017-03-15_21:52:53] [subTask]INFO:[../../facility/psamqtt-wangpan/mqttlink.C:317] CMqttLink::invokeService: Before calling protocolLogic:
+[2017-03-15_21:52:53] [subTask]INFO:[../../facility/psamqtt-wangpan/mqttclient.C:598] CMqttClientTcpLink::protocolLogic before calling sendToTask
+[2017-03-15_21:52:53] [subTask]INFO:[../../facility/psamqtt-wangpan/mqttlink.C:319] CMqttLink::invokeService: after calling protocolLogic:
+[2017-03-15_21:52:53] [subTask]INFO:[../../facility/psamqtt-wangpan/mqttlink.C:335] CMqttLink::responseService before protocolLogic
+[2017-03-15_21:52:53] [subTask]INFO:[../../facility/psamqtt-wangpan/mqttclient.C:598] CMqttClientTcpLink::protocolLogic before calling sendToTask
+[2017-03-15_21:52:53] [subTask]INFO:[../../facility/psamqtt-wangpan/mqttlink.C:337] CMqttLink::responseService after protocolLogic
+[2017-03-15_21:52:53] [subTask]ERROR:[statemachine.C:242] invalid timerKey: 18
+[2017-03-15_21:52:53] [subTask]INFO:[../../task/psathread.C:40] ###select::result: 104: 1
+[2017-03-15_21:52:53] [subTask]INFO:[../../facility/psamqtt-wangpan/mqttclient.C:328] CMqttClientTcpLink::processSend method being called
+[2017-03-15_21:52:53] [subTask]ERROR:[statemachine.C:242] invalid timerKey: 20
+[2017-03-15_21:52:53] [subTask]INFO:[../../task/psathread.C:40] ###select::result: 104: 1
+[2017-03-15_21:52:53] [subTask]INFO:[../../facility/psamqtt-wangpan/mqttclient.C:328] CMqttClientTcpLink::processSend method being called
+[2017-03-15_21:52:54] [subTask]INFO:[../../task/psathread.C:40] ###select::result: 104: 2
+[2017-03-15_21:52:54] [subTask]INFO:[../../facility/psamqtt-wangpan/mqttclient.C:328] CMqttClientTcpLink::processSend method being called
+[2017-03-15_21:52:54] [subTask]INFO:[../../facility/psamqtt-wangpan/mqttclient.C:331] CMqttClientTcpLink::processSend method being called with data
+[2017-03-15_21:52:54] [subTask]INFO:[../../facility/psamqtt-wangpan/mqttclient.C:337] CMqttClientTcpLink::processSend after stateMachine
+[2017-03-15_21:52:54] [subTask]INFO:[../../facility/psamqtt-wangpan/mqttclient.C:525] CMqttClientTcpLink::processRecv method being called
+[2017-03-15_21:52:54] [subTask]INFO:[../../facility/psamqtt-wangpan/mqttlink.C:317] CMqttLink::invokeService: Before calling protocolLogic:
+[2017-03-15_21:52:54] [subTask]INFO:[../../facility/psamqtt-wangpan/mqttclient.C:598] CMqttClientTcpLink::protocolLogic before calling sendToTask
+[2017-03-15_21:52:54] [subTask]INFO:[../../facility/psamqtt-wangpan/mqttlink.C:319] CMqttLink::invokeService: after calling protocolLogic:
+[2017-03-15_21:52:54] [subTask]ERROR:[statemachine.C:242] invalid timerKey: 21
+[2017-03-15_21:52:54] [subTask]INFO:[../../task/psathread.C:40] ###select::result: 104: 1
+[2017-03-15_21:52:54] [subTask]INFO:[../../facility/psamqtt-wangpan/mqttclient.C:328] CMqttClientTcpLink::processSend method being called
+[2017-03-15_21:52:55] [subTask]INFO:[../../task/psathread.C:40] ###select::result: 104: 2
+[2017-03-15_21:52:55] [subTask]INFO:[../../facility/psamqtt-wangpan/mqttclient.C:328] CMqttClientTcpLink::processSend method being called
+[2017-03-15_21:52:55] [subTask]INFO:[../../facility/psamqtt-wangpan/mqttclient.C:331] CMqttClientTcpLink::processSend method being called with data
+[2017-03-15_21:52:55] [subTask]ERROR:[statemachine.C:53] ###ERRRO:trying to send a subscribe while not in CONNECTED_STATE
+[2017-03-15_21:52:55] [subTask]INFO:[../../facility/psamqtt-wangpan/mqttclient.C:337] CMqttClientTcpLink::processSend after stateMachine
+[2017-03-15_21:52:55] [subTask]INFO:[../../facility/psamqtt-wangpan/mqttclient.C:525] CMqttClientTcpLink::processRecv method being called
+[2017-03-15_21:52:55] [subTask]INFO:[../../facility/psamqtt-wangpan/mqttlink.C:317] CMqttLink::invokeService: Before calling protocolLogic:
+[2017-03-15_21:52:55] [subTask]INFO:[../../facility/psamqtt-wangpan/mqttclient.C:598] CMqttClientTcpLink::protocolLogic before calling sendToTask
+[2017-03-15_21:52:55] [subTask]INFO:[../../facility/psamqtt-wangpan/mqttlink.C:319] CMqttLink::invokeService: after calling protocolLogic:
+[2017-03-15_21:52:55] [subTask]INFO:[../../facility/psamqtt-wangpan/mqttlink.C:335] CMqttLink::responseService before protocolLogic
+[2017-03-15_21:52:55] [subTask]INFO:[../../facility/psamqtt-wangpan/mqttclient.C:598] CMqttClientTcpLink::protocolLogic before calling sendToTask
+[2017-03-15_21:52:55] [subTask]INFO:[../../facility/psamqtt-wangpan/mqttlink.C:337] CMqttLink::responseService after protocolLogic
+[2017-03-15_21:52:55] [subTask]ERROR:[statemachine.C:242] invalid timerKey: 23
+[2017-03-15_21:52:55] [subTask]INFO:[../../task/psathread.C:40] ###select::result: 104: 1
+[2017-03-15_21:52:55] [subTask]INFO:[../../facility/psamqtt-wangpan/mqttclient.C:328] CMqttClientTcpLink::processSend method being called
+[2017-03-15_21:52:56] [subTask]INFO:[../../task/psathread.C:40] ###select::result: 104: 2
+[2017-03-15_21:52:56] [subTask]INFO:[../../facility/psamqtt-wangpan/mqttclient.C:328] CMqttClientTcpLink::processSend method being called
+[2017-03-15_21:52:56] [subTask]INFO:[../../facility/psamqtt-wangpan/mqttclient.C:331] CMqttClientTcpLink::processSend method being called with data
+[2017-03-15_21:52:56] [subTask]INFO:[../../facility/psamqtt-wangpan/mqttclient.C:337] CMqttClientTcpLink::processSend after stateMachine
+[2017-03-15_21:52:56] [subTask]INFO:[../../facility/psamqtt-wangpan/mqttclient.C:525] CMqttClientTcpLink::processRecv method being called
+[2017-03-15_21:52:56] [subTask]INFO:[../../facility/psamqtt-wangpan/mqttlink.C:317] CMqttLink::invokeService: Before calling protocolLogic:
+[2017-03-15_21:52:56] [subTask]INFO:[../../facility/psamqtt-wangpan/mqttclient.C:598] CMqttClientTcpLink::protocolLogic before calling sendToTask
+[2017-03-15_21:52:56] [subTask]INFO:[../../facility/psamqtt-wangpan/mqttlink.C:319] CMqttLink::invokeService: after calling protocolLogic:
+[2017-03-15_21:52:56] [subTask]ERROR:[statemachine.C:242] invalid timerKey: 24
+[2017-03-15_21:52:56] [subTask]INFO:[../../task/psathread.C:40] ###select::result: 104: 1
+[2017-03-15_21:52:56] [subTask]INFO:[../../facility/psamqtt-wangpan/mqttclient.C:328] CMqttClientTcpLink::processSend method being called
+[2017-03-15_21:52:57] [subTask]INFO:[../../task/psathread.C:40] ###select::result: 104: 2
+[2017-03-15_21:52:57] [subTask]INFO:[../../facility/psamqtt-wangpan/mqttclient.C:328] CMqttClientTcpLink::processSend method being called
+[2017-03-15_21:52:57] [subTask]INFO:[../../facility/psamqtt-wangpan/mqttclient.C:331] CMqttClientTcpLink::processSend method being called with data
+[2017-03-15_21:52:57] [subTask]ERROR:[statemachine.C:53] ###ERRRO:trying to send a subscribe while not in CONNECTED_STATE
+[2017-03-15_21:52:57] [subTask]INFO:[../../facility/psamqtt-wangpan/mqttclient.C:337] CMqttClientTcpLink::processSend after stateMachine
+[2017-03-15_21:52:57] [subTask]INFO:[../../facility/psamqtt-wangpan/mqttclient.C:525] CMqttClientTcpLink::processRecv method being called
+[2017-03-15_21:52:57] [subTask]INFO:[../../facility/psamqtt-wangpan/mqttlink.C:317] CMqttLink::invokeService: Before calling protocolLogic:
+[2017-03-15_21:52:57] [subTask]INFO:[../../facility/psamqtt-wangpan/mqttclient.C:598] CMqttClientTcpLink::protocolLogic before calling sendToTask
+[2017-03-15_21:52:57] [subTask]INFO:[../../facility/psamqtt-wangpan/mqttlink.C:319] CMqttLink::invokeService: after calling protocolLogic:
+[2017-03-15_21:52:57] [subTask]INFO:[../../facility/psamqtt-wangpan/mqttlink.C:335] CMqttLink::responseService before protocolLogic
+[2017-03-15_21:52:57] [subTask]INFO:[../../facility/psamqtt-wangpan/mqttclient.C:598] CMqttClientTcpLink::protocolLogic before calling sendToTask
+[2017-03-15_21:52:57] [subTask]INFO:[../../facility/psamqtt-wangpan/mqttlink.C:337] CMqttLink::responseService after protocolLogic
+[2017-03-15_21:52:57] [subTask]ERROR:[statemachine.C:242] invalid timerKey: 26
+[2017-03-15_21:52:57] [subTask]INFO:[../../task/psathread.C:40] ###select::result: 104: 1
+[2017-03-15_21:52:57] [subTask]INFO:[../../facility/psamqtt-wangpan/mqttclient.C:328] CMqttClientTcpLink::processSend method being called
+[2017-03-15_21:52:58] [subTask]INFO:[../../task/psathread.C:40] ###select::result: 104: 2
+[2017-03-15_21:52:58] [subTask]INFO:[../../facility/psamqtt-wangpan/mqttclient.C:328] CMqttClientTcpLink::processSend method being called
+[2017-03-15_21:52:58] [subTask]INFO:[../../facility/psamqtt-wangpan/mqttclient.C:331] CMqttClientTcpLink::processSend method being called with data
+[2017-03-15_21:52:58] [subTask]INFO:[../../facility/psamqtt-wangpan/mqttclient.C:337] CMqttClientTcpLink::processSend after stateMachine
+[2017-03-15_21:52:58] [subTask]INFO:[../../facility/psamqtt-wangpan/mqttclient.C:525] CMqttClientTcpLink::processRecv method being called
+[2017-03-15_21:52:58] [subTask]INFO:[../../facility/psamqtt-wangpan/mqttlink.C:317] CMqttLink::invokeService: Before calling protocolLogic:
+[2017-03-15_21:52:58] [subTask]INFO:[../../facility/psamqtt-wangpan/mqttclient.C:598] CMqttClientTcpLink::protocolLogic before calling sendToTask
+[2017-03-15_21:52:58] [subTask]INFO:[../../facility/psamqtt-wangpan/mqttlink.C:319] CMqttLink::invokeService: after calling protocolLogic:
+[2017-03-15_21:52:59] [subTask]INFO:[../../task/psathread.C:40] ###select::result: 104: 2
+[2017-03-15_21:52:59] [subTask]INFO:[../../facility/psamqtt-wangpan/mqttclient.C:328] CMqttClientTcpLink::processSend method being called
+[2017-03-15_21:52:59] [subTask]INFO:[../../facility/psamqtt-wangpan/mqttclient.C:331] CMqttClientTcpLink::processSend method being called with data
+[2017-03-15_21:52:59] [subTask]ERROR:[statemachine.C:53] ###ERRRO:trying to send a subscribe while not in CONNECTED_STATE
+[2017-03-15_21:52:59] [subTask]INFO:[../../facility/psamqtt-wangpan/mqttclient.C:337] CMqttClientTcpLink::processSend after stateMachine
+[2017-03-15_21:52:59] [subTask]INFO:[../../facility/psamqtt-wangpan/mqttclient.C:525] CMqttClientTcpLink::processRecv method being called
+[2017-03-15_21:52:59] [subTask]INFO:[../../facility/psamqtt-wangpan/mqttlink.C:317] CMqttLink::invokeService: Before calling protocolLogic:
+[2017-03-15_21:52:59] [subTask]INFO:[../../facility/psamqtt-wangpan/mqttclient.C:598] CMqttClientTcpLink::protocolLogic before calling sendToTask
+[2017-03-15_21:52:59] [subTask]INFO:[../../facility/psamqtt-wangpan/mqttlink.C:319] CMqttLink::invokeService: after calling protocolLogic:
+[2017-03-15_21:52:59] [subTask]INFO:[../../facility/psamqtt-wangpan/mqttlink.C:335] CMqttLink::responseService before protocolLogic
+[2017-03-15_21:52:59] [subTask]INFO:[../../facility/psamqtt-wangpan/mqttclient.C:598] CMqttClientTcpLink::protocolLogic before calling sendToTask
+[2017-03-15_21:52:59] [subTask]INFO:[../../facility/psamqtt-wangpan/mqttlink.C:337] CMqttLink::responseService after protocolLogic
+[2017-03-15_21:52:59] [subTask]ERROR:[statemachine.C:242] invalid timerKey: 27
+[2017-03-15_21:52:59] [subTask]INFO:[../../task/psathread.C:40] ###select::result: 104: 1
+[2017-03-15_21:52:59] [subTask]INFO:[../../facility/psamqtt-wangpan/mqttclient.C:328] CMqttClientTcpLink::processSend method being called
+[2017-03-15_21:52:59] [subTask]ERROR:[statemachine.C:242] invalid timerKey: 29
+[2017-03-15_21:52:59] [subTask]INFO:[../../task/psathread.C:40] ###select::result: 104: 1
+[2017-03-15_21:52:59] [subTask]INFO:[../../facility/psamqtt-wangpan/mqttclient.C:328] CMqttClientTcpLink::processSend method being called
+[2017-03-15_21:53:00] [subTask]INFO:[../../task/psathread.C:40] ###select::result: 104: 2
+[2017-03-15_21:53:00] [subTask]INFO:[../../facility/psamqtt-wangpan/mqttclient.C:328] CMqttClientTcpLink::processSend method being called
+[2017-03-15_21:53:00] [subTask]INFO:[../../facility/psamqtt-wangpan/mqttclient.C:331] CMqttClientTcpLink::processSend method being called with data
+[2017-03-15_21:53:00] [subTask]INFO:[../../facility/psamqtt-wangpan/mqttclient.C:337] CMqttClientTcpLink::processSend after stateMachine
+[2017-03-15_21:53:00] [subTask]INFO:[../../facility/psamqtt-wangpan/mqttclient.C:525] CMqttClientTcpLink::processRecv method being called
+[2017-03-15_21:53:00] [subTask]INFO:[../../facility/psamqtt-wangpan/mqttlink.C:317] CMqttLink::invokeService: Before calling protocolLogic:
+[2017-03-15_21:53:00] [subTask]INFO:[../../facility/psamqtt-wangpan/mqttclient.C:598] CMqttClientTcpLink::protocolLogic before calling sendToTask
+[2017-03-15_21:53:00] [subTask]INFO:[../../facility/psamqtt-wangpan/mqttlink.C:319] CMqttLink::invokeService: after calling protocolLogic:
+[2017-03-15_21:53:01] [subTask]INFO:[../../task/psathread.C:40] ###select::result: 104: 2
+[2017-03-15_21:53:01] [subTask]INFO:[../../facility/psamqtt-wangpan/mqttclient.C:328] CMqttClientTcpLink::processSend method being called
+[2017-03-15_21:53:01] [subTask]INFO:[../../facility/psamqtt-wangpan/mqttclient.C:331] CMqttClientTcpLink::processSend method being called with data
+[2017-03-15_21:53:01] [subTask]ERROR:[statemachine.C:53] ###ERRRO:trying to send a subscribe while not in CONNECTED_STATE
+[2017-03-15_21:53:01] [subTask]INFO:[../../facility/psamqtt-wangpan/mqttclient.C:337] CMqttClientTcpLink::processSend after stateMachine
+[2017-03-15_21:53:01] [subTask]INFO:[../../facility/psamqtt-wangpan/mqttclient.C:525] CMqttClientTcpLink::processRecv method being called
+[2017-03-15_21:53:01] [subTask]INFO:[../../facility/psamqtt-wangpan/mqttlink.C:317] CMqttLink::invokeService: Before calling protocolLogic:
+[2017-03-15_21:53:01] [subTask]INFO:[../../facility/psamqtt-wangpan/mqttclient.C:598] CMqttClientTcpLink::protocolLogic before calling sendToTask
+[2017-03-15_21:53:01] [subTask]INFO:[../../facility/psamqtt-wangpan/mqttlink.C:319] CMqttLink::invokeService: after calling protocolLogic:
+[2017-03-15_21:53:01] [subTask]INFO:[../../facility/psamqtt-wangpan/mqttlink.C:335] CMqttLink::responseService before protocolLogic
+[2017-03-15_21:53:01] [subTask]INFO:[../../facility/psamqtt-wangpan/mqttclient.C:598] CMqttClientTcpLink::protocolLogic before calling sendToTask
+[2017-03-15_21:53:01] [subTask]INFO:[../../facility/psamqtt-wangpan/mqttlink.C:337] CMqttLink::responseService after protocolLogic
+[2017-03-15_21:53:01] [subTask]ERROR:[statemachine.C:242] invalid timerKey: 30
+[2017-03-15_21:53:01] [subTask]INFO:[../../task/psathread.C:40] ###select::result: 104: 1
+[2017-03-15_21:53:01] [subTask]INFO:[../../facility/psamqtt-wangpan/mqttclient.C:328] CMqttClientTcpLink::processSend method being called
+[2017-03-15_21:53:01] [subTask]ERROR:[statemachine.C:242] invalid timerKey: 32
+[2017-03-15_21:53:01] [subTask]INFO:[../../task/psathread.C:40] ###select::result: 104: 1
+[2017-03-15_21:53:01] [subTask]INFO:[../../facility/psamqtt-wangpan/mqttclient.C:328] CMqttClientTcpLink::processSend method being called
+[2017-03-15_21:53:02] [subTask]INFO:[../../task/psathread.C:40] ###select::result: 104: 2
+[2017-03-15_21:53:02] [subTask]INFO:[../../facility/psamqtt-wangpan/mqttclient.C:328] CMqttClientTcpLink::processSend method being called
+[2017-03-15_21:53:02] [subTask]INFO:[../../facility/psamqtt-wangpan/mqttclient.C:331] CMqttClientTcpLink::processSend method being called with data
+[2017-03-15_21:53:02] [subTask]INFO:[../../facility/psamqtt-wangpan/mqttclient.C:337] CMqttClientTcpLink::processSend after stateMachine
+[2017-03-15_21:53:02] [subTask]INFO:[../../facility/psamqtt-wangpan/mqttclient.C:525] CMqttClientTcpLink::processRecv method being called
+[2017-03-15_21:53:02] [subTask]INFO:[../../facility/psamqtt-wangpan/mqttlink.C:317] CMqttLink::invokeService: Before calling protocolLogic:
+[2017-03-15_21:53:02] [subTask]INFO:[../../facility/psamqtt-wangpan/mqttclient.C:598] CMqttClientTcpLink::protocolLogic before calling sendToTask
+[2017-03-15_21:53:02] [subTask]INFO:[../../facility/psamqtt-wangpan/mqttlink.C:319] CMqttLink::invokeService: after calling protocolLogic:
+[2017-03-15_21:53:02] [subTask]ERROR:[statemachine.C:242] invalid timerKey: 33
+[2017-03-15_21:53:02] [subTask]INFO:[../../task/psathread.C:40] ###select::result: 104: 1
+[2017-03-15_21:53:02] [subTask]INFO:[../../facility/psamqtt-wangpan/mqttclient.C:328] CMqttClientTcpLink::processSend method being called
+[2017-03-15_21:53:03] [subTask]INFO:[../../task/psathread.C:40] ###select::result: 104: 2
+[2017-03-15_21:53:03] [subTask]INFO:[../../facility/psamqtt-wangpan/mqttclient.C:328] CMqttClientTcpLink::processSend method being called
+[2017-03-15_21:53:03] [subTask]INFO:[../../facility/psamqtt-wangpan/mqttclient.C:331] CMqttClientTcpLink::processSend method being called with data
+[2017-03-15_21:53:03] [subTask]ERROR:[statemachine.C:53] ###ERRRO:trying to send a subscribe while not in CONNECTED_STATE
+[2017-03-15_21:53:03] [subTask]INFO:[../../facility/psamqtt-wangpan/mqttclient.C:337] CMqttClientTcpLink::processSend after stateMachine
+[2017-03-15_21:53:03] [subTask]INFO:[../../facility/psamqtt-wangpan/mqttclient.C:525] CMqttClientTcpLink::processRecv method being called
+[2017-03-15_21:53:03] [subTask]INFO:[../../facility/psamqtt-wangpan/mqttlink.C:317] CMqttLink::invokeService: Before calling protocolLogic:
+[2017-03-15_21:53:03] [subTask]INFO:[../../facility/psamqtt-wangpan/mqttclient.C:598] CMqttClientTcpLink::protocolLogic before calling sendToTask
+[2017-03-15_21:53:03] [subTask]INFO:[../../facility/psamqtt-wangpan/mqttlink.C:319] CMqttLink::invokeService: after calling protocolLogic:
+[2017-03-15_21:53:03] [subTask]INFO:[../../facility/psamqtt-wangpan/mqttlink.C:335] CMqttLink::responseService before protocolLogic
+[2017-03-15_21:53:03] [subTask]INFO:[../../facility/psamqtt-wangpan/mqttclient.C:598] CMqttClientTcpLink::protocolLogic before calling sendToTask
+[2017-03-15_21:53:03] [subTask]INFO:[../../facility/psamqtt-wangpan/mqttlink.C:337] CMqttLink::responseService after protocolLogic
+[2017-03-15_21:53:03] [subTask]ERROR:[statemachine.C:242] invalid timerKey: 35
+[2017-03-15_21:53:03] [subTask]INFO:[../../task/psathread.C:40] ###select::result: 104: 1
+[2017-03-15_21:53:03] [subTask]INFO:[../../facility/psamqtt-wangpan/mqttclient.C:328] CMqttClientTcpLink::processSend method being called
+[2017-03-15_21:53:04] [subTask]INFO:[../../task/psathread.C:40] ###select::result: 104: 2
+[2017-03-15_21:53:04] [subTask]INFO:[../../facility/psamqtt-wangpan/mqttclient.C:328] CMqttClientTcpLink::processSend method being called
+[2017-03-15_21:53:04] [subTask]INFO:[../../facility/psamqtt-wangpan/mqttclient.C:331] CMqttClientTcpLink::processSend method being called with data
+[2017-03-15_21:53:04] [subTask]INFO:[../../facility/psamqtt-wangpan/mqttclient.C:337] CMqttClientTcpLink::processSend after stateMachine
+[2017-03-15_21:53:04] [subTask]INFO:[../../facility/psamqtt-wangpan/mqttclient.C:525] CMqttClientTcpLink::processRecv method being called
+[2017-03-15_21:53:04] [subTask]INFO:[../../facility/psamqtt-wangpan/mqttlink.C:317] CMqttLink::invokeService: Before calling protocolLogic:
+[2017-03-15_21:53:04] [subTask]INFO:[../../facility/psamqtt-wangpan/mqttclient.C:598] CMqttClientTcpLink::protocolLogic before calling sendToTask
+[2017-03-15_21:53:04] [subTask]INFO:[../../facility/psamqtt-wangpan/mqttlink.C:319] CMqttLink::invokeService: after calling protocolLogic:
+[2017-03-15_21:53:05] [subTask]INFO:[../../task/psathread.C:40] ###select::result: 104: 2
+[2017-03-15_21:53:05] [subTask]INFO:[../../facility/psamqtt-wangpan/mqttclient.C:328] CMqttClientTcpLink::processSend method being called
+[2017-03-15_21:53:05] [subTask]INFO:[../../facility/psamqtt-wangpan/mqttclient.C:331] CMqttClientTcpLink::processSend method being called with data
+[2017-03-15_21:53:05] [subTask]ERROR:[statemachine.C:53] ###ERRRO:trying to send a subscribe while not in CONNECTED_STATE
+[2017-03-15_21:53:05] [subTask]INFO:[../../facility/psamqtt-wangpan/mqttclient.C:337] CMqttClientTcpLink::processSend after stateMachine
+[2017-03-15_21:53:05] [subTask]INFO:[../../facility/psamqtt-wangpan/mqttclient.C:525] CMqttClientTcpLink::processRecv method being called
+[2017-03-15_21:53:05] [subTask]INFO:[../../facility/psamqtt-wangpan/mqttlink.C:317] CMqttLink::invokeService: Before calling protocolLogic:
+[2017-03-15_21:53:05] [subTask]INFO:[../../facility/psamqtt-wangpan/mqttclient.C:598] CMqttClientTcpLink::protocolLogic before calling sendToTask
+[2017-03-15_21:53:05] [subTask]INFO:[../../facility/psamqtt-wangpan/mqttlink.C:319] CMqttLink::invokeService: after calling protocolLogic:
+[2017-03-15_21:53:05] [subTask]INFO:[../../facility/psamqtt-wangpan/mqttlink.C:335] CMqttLink::responseService before protocolLogic
+[2017-03-15_21:53:05] [subTask]INFO:[../../facility/psamqtt-wangpan/mqttclient.C:598] CMqttClientTcpLink::protocolLogic before calling sendToTask
+[2017-03-15_21:53:05] [subTask]INFO:[../../facility/psamqtt-wangpan/mqttlink.C:337] CMqttLink::responseService after protocolLogic
+[2017-03-15_21:53:05] [subTask]ERROR:[statemachine.C:242] invalid timerKey: 36
+[2017-03-15_21:53:05] [subTask]INFO:[../../task/psathread.C:40] ###select::result: 104: 1
+[2017-03-15_21:53:05] [subTask]INFO:[../../facility/psamqtt-wangpan/mqttclient.C:328] CMqttClientTcpLink::processSend method being called
+[2017-03-15_21:53:05] [subTask]ERROR:[statemachine.C:242] invalid timerKey: 38
+[2017-03-15_21:53:05] [subTask]INFO:[../../task/psathread.C:40] ###select::result: 104: 1
+[2017-03-15_21:53:05] [subTask]INFO:[../../facility/psamqtt-wangpan/mqttclient.C:328] CMqttClientTcpLink::processSend method being called
+[2017-03-15_21:53:06] [subTask]INFO:[../../task/psathread.C:40] ###select::result: 104: 2
+[2017-03-15_21:53:06] [subTask]INFO:[../../facility/psamqtt-wangpan/mqttclient.C:328] CMqttClientTcpLink::processSend method being called
+[2017-03-15_21:53:06] [subTask]INFO:[../../facility/psamqtt-wangpan/mqttclient.C:331] CMqttClientTcpLink::processSend method being called with data
+[2017-03-15_21:53:06] [subTask]INFO:[../../facility/psamqtt-wangpan/mqttclient.C:337] CMqttClientTcpLink::processSend after stateMachine
+[2017-03-15_21:53:06] [subTask]INFO:[../../facility/psamqtt-wangpan/mqttclient.C:525] CMqttClientTcpLink::processRecv method being called
+[2017-03-15_21:53:06] [subTask]INFO:[../../facility/psamqtt-wangpan/mqttlink.C:317] CMqttLink::invokeService: Before calling protocolLogic:
+[2017-03-15_21:53:06] [subTask]INFO:[../../facility/psamqtt-wangpan/mqttclient.C:598] CMqttClientTcpLink::protocolLogic before calling sendToTask
+[2017-03-15_21:53:06] [subTask]INFO:[../../facility/psamqtt-wangpan/mqttlink.C:319] CMqttLink::invokeService: after calling protocolLogic:
+[2017-03-15_21:53:06] [subTask]ERROR:[statemachine.C:242] invalid timerKey: 39
+[2017-03-15_21:53:06] [subTask]INFO:[../../task/psathread.C:40] ###select::result: 104: 1
+[2017-03-15_21:53:06] [subTask]INFO:[../../facility/psamqtt-wangpan/mqttclient.C:328] CMqttClientTcpLink::processSend method being called
+[2017-03-15_21:57:52] [subTask]INFO:[../../task/psathread.C:40] ###select::result: 104: 0
+[2017-03-15_21:57:52] [subTask]INFO:[../../task/psathread.C:40] ###select::result: 104: 0
+[2017-03-15_21:57:53] [subTask]INFO:[../../task/psathread.C:40] ###select::result: 104: 0
+[2017-03-15_21:57:54] [subTask]INFO:[../../task/psathread.C:40] ###select::result: 104: 0
+[2017-03-15_21:57:54] [subTask]INFO:[subtask.C:120] calling MqttClientTask::onTimeOut method
+[2017-03-15_21:57:54] [subTask]INFO:[comserv/socket.C:1947] Open client socket succeed. remoteAddr: 127.0.0.1:9002. clientPort: 0.  sock_fd: 5
+[2017-03-15_21:57:54] [subTask]INFO:[../../task/psathread.C:40] ###select::result: 104: 1
+[2017-03-15_21:57:54] [subTask]INFO:[../../facility/psamqtt-wangpan/mqttclient.C:328] CMqttClientTcpLink::processSend method being called
+[2017-03-15_21:57:54] [subTask]INFO:[../../facility/psamqtt-wangpan/mqttclient.C:331] CMqttClientTcpLink::processSend method being called with data
+[2017-03-15_21:57:54] [subTask]INFO:[../../facility/psamqtt-wangpan/mqttclient.C:337] CMqttClientTcpLink::processSend after stateMachine
+[2017-03-15_21:57:54] [subTask]INFO:[../../facility/psamqtt-wangpan/mqttclient.C:345] CMqttClientTcpLink::processSend after pointer casting
+[2017-03-15_21:57:54] [subTask]INFO:[../../facility/psamqtt-wangpan/mqttlink.C:796] send connect message
+[2017-03-15_21:57:55] [subTask]INFO:[../../task/psathread.C:40] ###select::result: 104: 2
+[2017-03-15_21:57:55] [subTask]INFO:[../../facility/psamqtt-wangpan/mqttclient.C:328] CMqttClientTcpLink::processSend method being called
+[2017-03-15_21:57:55] [subTask]INFO:[../../facility/psamqtt-wangpan/mqttclient.C:331] CMqttClientTcpLink::processSend method being called with data
+[2017-03-15_21:57:55] [subTask]ERROR:[statemachine.C:53] ###ERRRO:trying to send a subscribe while not in CONNECTED_STATE
+[2017-03-15_21:57:55] [subTask]INFO:[../../facility/psamqtt-wangpan/mqttclient.C:337] CMqttClientTcpLink::processSend after stateMachine
+[2017-03-15_21:57:55] [subTask]INFO:[../../facility/psamqtt-wangpan/mqttclient.C:525] CMqttClientTcpLink::processRecv method being called
+[2017-03-15_21:57:55] [subTask]INFO:[../../facility/psamqtt-wangpan/mqttlink.C:712] received connack message: 0
+[2017-03-15_21:57:55] [subTask]INFO:[../../facility/psamqtt-wangpan/mqttlink.C:335] CMqttLink::responseService before protocolLogic
+[2017-03-15_21:57:55] [subTask]INFO:[../../facility/psamqtt-wangpan/mqttclient.C:598] CMqttClientTcpLink::protocolLogic before calling sendToTask
+[2017-03-15_21:57:55] [subTask]INFO:[../../facility/psamqtt-wangpan/mqttlink.C:337] CMqttLink::responseService after protocolLogic
+[2017-03-15_21:57:55] [subTask]ERROR:[../../facility/psamqtt-wangpan/mqttlink.C:100] CMqttLink::msgParse, message length = 0
+[2017-03-15_21:57:56] [subTask]INFO:[../../task/psathread.C:40] ###select::result: 104: 1
+[2017-03-15_21:57:56] [subTask]INFO:[../../facility/psamqtt-wangpan/mqttclient.C:328] CMqttClientTcpLink::processSend method being called
+[2017-03-15_21:57:56] [subTask]INFO:[../../facility/psamqtt-wangpan/mqttclient.C:331] CMqttClientTcpLink::processSend method being called with data
+[2017-03-15_21:57:56] [subTask]INFO:[../../facility/psamqtt-wangpan/mqttclient.C:337] CMqttClientTcpLink::processSend after stateMachine
+[2017-03-15_21:57:57] [subTask]INFO:[../../task/psathread.C:40] ###select::result: 104: 2
+[2017-03-15_21:57:57] [subTask]INFO:[../../facility/psamqtt-wangpan/mqttclient.C:328] CMqttClientTcpLink::processSend method being called
+[2017-03-15_21:57:57] [subTask]INFO:[../../facility/psamqtt-wangpan/mqttclient.C:331] CMqttClientTcpLink::processSend method being called with data
+[2017-03-15_21:57:57] [subTask]ERROR:[statemachine.C:53] ###ERRRO:trying to send a subscribe while not in CONNECTED_STATE
+[2017-03-15_21:57:57] [subTask]INFO:[../../facility/psamqtt-wangpan/mqttclient.C:337] CMqttClientTcpLink::processSend after stateMachine
+[2017-03-15_21:57:57] [subTask]INFO:[../../facility/psamqtt-wangpan/mqttclient.C:525] CMqttClientTcpLink::processRecv method being called
+[2017-03-15_21:57:57] [subTask]INFO:[../../facility/psamqtt-wangpan/mqttlink.C:335] CMqttLink::responseService before protocolLogic
+[2017-03-15_21:57:57] [subTask]INFO:[../../facility/psamqtt-wangpan/mqttclient.C:598] CMqttClientTcpLink::protocolLogic before calling sendToTask
+[2017-03-15_21:57:57] [subTask]INFO:[../../facility/psamqtt-wangpan/mqttlink.C:337] CMqttLink::responseService after protocolLogic
+[2017-03-15_21:57:57] [subTask]INFO:[../../facility/psamqtt-wangpan/mqttlink.C:317] CMqttLink::invokeService: Before calling protocolLogic:
+[2017-03-15_21:57:57] [subTask]INFO:[../../facility/psamqtt-wangpan/mqttclient.C:598] CMqttClientTcpLink::protocolLogic before calling sendToTask
+[2017-03-15_21:57:57] [subTask]INFO:[../../facility/psamqtt-wangpan/mqttlink.C:319] CMqttLink::invokeService: after calling protocolLogic:
+[2017-03-15_21:57:58] [subTask]INFO:[../../task/psathread.C:40] ###select::result: 104: 2
+[2017-03-15_21:57:58] [subTask]INFO:[../../facility/psamqtt-wangpan/mqttclient.C:328] CMqttClientTcpLink::processSend method being called
+[2017-03-15_21:57:58] [subTask]INFO:[../../facility/psamqtt-wangpan/mqttclient.C:331] CMqttClientTcpLink::processSend method being called with data
+[2017-03-15_21:57:58] [subTask]INFO:[../../facility/psamqtt-wangpan/mqttclient.C:337] CMqttClientTcpLink::processSend after stateMachine
+[2017-03-15_21:57:58] [subTask]INFO:[../../facility/psamqtt-wangpan/mqttclient.C:525] CMqttClientTcpLink::processRecv method being called
+[2017-03-15_21:57:58] [subTask]INFO:[../../facility/psamqtt-wangpan/mqttlink.C:317] CMqttLink::invokeService: Before calling protocolLogic:
+[2017-03-15_21:57:58] [subTask]INFO:[../../facility/psamqtt-wangpan/mqttclient.C:598] CMqttClientTcpLink::protocolLogic before calling sendToTask
+[2017-03-15_21:57:58] [subTask]INFO:[../../facility/psamqtt-wangpan/mqttlink.C:319] CMqttLink::invokeService: after calling protocolLogic:
+[2017-03-15_21:57:59] [subTask]INFO:[../../task/psathread.C:40] ###select::result: 104: 2
+[2017-03-15_21:57:59] [subTask]INFO:[../../facility/psamqtt-wangpan/mqttclient.C:328] CMqttClientTcpLink::processSend method being called
+[2017-03-15_21:57:59] [subTask]INFO:[../../facility/psamqtt-wangpan/mqttclient.C:331] CMqttClientTcpLink::processSend method being called with data
+[2017-03-15_21:57:59] [subTask]ERROR:[statemachine.C:53] ###ERRRO:trying to send a subscribe while not in CONNECTED_STATE
+[2017-03-15_21:57:59] [subTask]INFO:[../../facility/psamqtt-wangpan/mqttclient.C:337] CMqttClientTcpLink::processSend after stateMachine
+[2017-03-15_21:57:59] [subTask]INFO:[../../facility/psamqtt-wangpan/mqttclient.C:525] CMqttClientTcpLink::processRecv method being called
+[2017-03-15_21:57:59] [subTask]INFO:[../../facility/psamqtt-wangpan/mqttlink.C:335] CMqttLink::responseService before protocolLogic
+[2017-03-15_21:57:59] [subTask]INFO:[../../facility/psamqtt-wangpan/mqttclient.C:598] CMqttClientTcpLink::protocolLogic before calling sendToTask
+[2017-03-15_21:57:59] [subTask]INFO:[../../facility/psamqtt-wangpan/mqttlink.C:337] CMqttLink::responseService after protocolLogic
+[2017-03-15_21:57:59] [subTask]INFO:[../../facility/psamqtt-wangpan/mqttlink.C:317] CMqttLink::invokeService: Before calling protocolLogic:
+[2017-03-15_21:57:59] [subTask]INFO:[../../facility/psamqtt-wangpan/mqttclient.C:598] CMqttClientTcpLink::protocolLogic before calling sendToTask
+[2017-03-15_21:57:59] [subTask]INFO:[../../facility/psamqtt-wangpan/mqttlink.C:319] CMqttLink::invokeService: after calling protocolLogic:
+[2017-03-15_21:57:59] [subTask]INFO:[../../facility/psamqtt-wangpan/mqttlink.C:317] CMqttLink::invokeService: Before calling protocolLogic:
+[2017-03-15_21:57:59] [subTask]INFO:[../../facility/psamqtt-wangpan/mqttclient.C:598] CMqttClientTcpLink::protocolLogic before calling sendToTask
+[2017-03-15_21:57:59] [subTask]INFO:[../../facility/psamqtt-wangpan/mqttlink.C:319] CMqttLink::invokeService: after calling protocolLogic:
+[2017-03-15_21:57:59] [subTask]ERROR:[statemachine.C:242] invalid timerKey: 3
+[2017-03-15_21:57:59] [subTask]INFO:[../../task/psathread.C:40] ###select::result: 104: 1
+[2017-03-15_21:57:59] [subTask]INFO:[../../facility/psamqtt-wangpan/mqttclient.C:328] CMqttClientTcpLink::processSend method being called
+[2017-03-15_21:57:59] [subTask]INFO:[../../facility/psamqtt-wangpan/mqttclient.C:331] CMqttClientTcpLink::processSend method being called with data
+[2017-03-15_21:57:59] [subTask]INFO:[../../facility/psamqtt-wangpan/mqttclient.C:337] CMqttClientTcpLink::processSend after stateMachine
+[2017-03-15_21:57:59] [subTask]ERROR:[statemachine.C:242] invalid timerKey: 5
+[2017-03-15_21:57:59] [subTask]INFO:[../../task/psathread.C:40] ###select::result: 104: 1
+[2017-03-15_21:57:59] [subTask]INFO:[../../facility/psamqtt-wangpan/mqttclient.C:328] CMqttClientTcpLink::processSend method being called
+[2017-03-15_21:57:59] [subTask]INFO:[../../facility/psamqtt-wangpan/mqttclient.C:331] CMqttClientTcpLink::processSend method being called with data
+[2017-03-15_21:57:59] [subTask]ERROR:[statemachine.C:53] ###ERRRO:trying to send a subscribe while not in CONNECTED_STATE
+[2017-03-15_21:57:59] [subTask]INFO:[../../facility/psamqtt-wangpan/mqttclient.C:337] CMqttClientTcpLink::processSend after stateMachine
+[2017-03-15_21:58:00] [subTask]INFO:[../../task/psathread.C:40] ###select::result: 104: 2
+[2017-03-15_21:58:00] [subTask]INFO:[../../facility/psamqtt-wangpan/mqttclient.C:328] CMqttClientTcpLink::processSend method being called
+[2017-03-15_21:58:00] [subTask]INFO:[../../facility/psamqtt-wangpan/mqttclient.C:331] CMqttClientTcpLink::processSend method being called with data
+[2017-03-15_21:58:00] [subTask]ERROR:[statemachine.C:53] ###ERRRO:trying to send a subscribe while not in CONNECTED_STATE
+[2017-03-15_21:58:00] [subTask]INFO:[../../facility/psamqtt-wangpan/mqttclient.C:337] CMqttClientTcpLink::processSend after stateMachine
+[2017-03-15_21:58:00] [subTask]INFO:[../../facility/psamqtt-wangpan/mqttclient.C:525] CMqttClientTcpLink::processRecv method being called
+[2017-03-15_21:58:00] [subTask]INFO:[../../facility/psamqtt-wangpan/mqttlink.C:335] CMqttLink::responseService before protocolLogic
+[2017-03-15_21:58:00] [subTask]INFO:[../../facility/psamqtt-wangpan/mqttclient.C:598] CMqttClientTcpLink::protocolLogic before calling sendToTask
+[2017-03-15_21:58:00] [subTask]INFO:[../../facility/psamqtt-wangpan/mqttlink.C:337] CMqttLink::responseService after protocolLogic
+[2017-03-15_21:58:00] [subTask]INFO:[../../facility/psamqtt-wangpan/mqttlink.C:317] CMqttLink::invokeService: Before calling protocolLogic:
+[2017-03-15_21:58:00] [subTask]INFO:[../../facility/psamqtt-wangpan/mqttclient.C:598] CMqttClientTcpLink::protocolLogic before calling sendToTask
+[2017-03-15_21:58:00] [subTask]INFO:[../../facility/psamqtt-wangpan/mqttlink.C:319] CMqttLink::invokeService: after calling protocolLogic:
+[2017-03-15_21:58:00] [subTask]INFO:[../../facility/psamqtt-wangpan/mqttlink.C:317] CMqttLink::invokeService: Before calling protocolLogic:
+[2017-03-15_21:58:00] [subTask]INFO:[../../facility/psamqtt-wangpan/mqttclient.C:598] CMqttClientTcpLink::protocolLogic before calling sendToTask
+[2017-03-15_21:58:00] [subTask]INFO:[../../facility/psamqtt-wangpan/mqttlink.C:319] CMqttLink::invokeService: after calling protocolLogic:
+[2017-03-15_21:58:00] [subTask]ERROR:[statemachine.C:242] invalid timerKey: 6
+[2017-03-15_21:58:00] [subTask]INFO:[../../task/psathread.C:40] ###select::result: 104: 1
+[2017-03-15_21:58:00] [subTask]INFO:[../../facility/psamqtt-wangpan/mqttclient.C:328] CMqttClientTcpLink::processSend method being called
+[2017-03-15_21:58:01] [subTask]INFO:[../../task/psathread.C:40] ###select::result: 104: 2
+[2017-03-15_21:58:01] [subTask]INFO:[../../facility/psamqtt-wangpan/mqttclient.C:328] CMqttClientTcpLink::processSend method being called
+[2017-03-15_21:58:01] [subTask]INFO:[../../facility/psamqtt-wangpan/mqttclient.C:331] CMqttClientTcpLink::processSend method being called with data
+[2017-03-15_21:58:01] [subTask]INFO:[../../facility/psamqtt-wangpan/mqttclient.C:337] CMqttClientTcpLink::processSend after stateMachine
+[2017-03-15_21:58:01] [subTask]INFO:[../../facility/psamqtt-wangpan/mqttclient.C:525] CMqttClientTcpLink::processRecv method being called
+[2017-03-15_21:58:01] [subTask]INFO:[../../facility/psamqtt-wangpan/mqttlink.C:317] CMqttLink::invokeService: Before calling protocolLogic:
+[2017-03-15_21:58:01] [subTask]INFO:[../../facility/psamqtt-wangpan/mqttclient.C:598] CMqttClientTcpLink::protocolLogic before calling sendToTask
+[2017-03-15_21:58:01] [subTask]INFO:[../../facility/psamqtt-wangpan/mqttlink.C:319] CMqttLink::invokeService: after calling protocolLogic:
+[2017-03-15_21:58:01] [subTask]ERROR:[statemachine.C:242] invalid timerKey: 8
+[2017-03-15_21:58:01] [subTask]INFO:[../../task/psathread.C:40] ###select::result: 104: 1
+[2017-03-15_21:58:01] [subTask]INFO:[../../facility/psamqtt-wangpan/mqttclient.C:328] CMqttClientTcpLink::processSend method being called
+[2017-03-15_21:58:02] [subTask]INFO:[../../task/psathread.C:40] ###select::result: 104: 2
+[2017-03-15_21:58:02] [subTask]INFO:[../../facility/psamqtt-wangpan/mqttclient.C:328] CMqttClientTcpLink::processSend method being called
+[2017-03-15_21:58:02] [subTask]INFO:[../../facility/psamqtt-wangpan/mqttclient.C:331] CMqttClientTcpLink::processSend method being called with data
+[2017-03-15_21:58:02] [subTask]ERROR:[statemachine.C:53] ###ERRRO:trying to send a subscribe while not in CONNECTED_STATE
+[2017-03-15_21:58:02] [subTask]INFO:[../../facility/psamqtt-wangpan/mqttclient.C:337] CMqttClientTcpLink::processSend after stateMachine
+[2017-03-15_21:58:02] [subTask]INFO:[../../facility/psamqtt-wangpan/mqttclient.C:525] CMqttClientTcpLink::processRecv method being called
+[2017-03-15_21:58:02] [subTask]INFO:[../../facility/psamqtt-wangpan/mqttlink.C:335] CMqttLink::responseService before protocolLogic
+[2017-03-15_21:58:02] [subTask]INFO:[../../facility/psamqtt-wangpan/mqttclient.C:598] CMqttClientTcpLink::protocolLogic before calling sendToTask
+[2017-03-15_21:58:02] [subTask]INFO:[../../facility/psamqtt-wangpan/mqttlink.C:337] CMqttLink::responseService after protocolLogic
+[2017-03-15_21:58:02] [subTask]INFO:[../../facility/psamqtt-wangpan/mqttlink.C:317] CMqttLink::invokeService: Before calling protocolLogic:
+[2017-03-15_21:58:02] [subTask]INFO:[../../facility/psamqtt-wangpan/mqttclient.C:598] CMqttClientTcpLink::protocolLogic before calling sendToTask
+[2017-03-15_21:58:02] [subTask]INFO:[../../facility/psamqtt-wangpan/mqttlink.C:319] CMqttLink::invokeService: after calling protocolLogic:
+[2017-03-15_21:58:02] [subTask]ERROR:[statemachine.C:242] invalid timerKey: 9
+[2017-03-15_21:58:02] [subTask]INFO:[../../task/psathread.C:40] ###select::result: 104: 1
+[2017-03-15_21:58:02] [subTask]INFO:[../../facility/psamqtt-wangpan/mqttclient.C:328] CMqttClientTcpLink::processSend method being called
+[2017-03-15_21:58:02] [subTask]ERROR:[statemachine.C:242] invalid timerKey: 11
+[2017-03-15_21:58:02] [subTask]INFO:[../../task/psathread.C:40] ###select::result: 104: 1
+[2017-03-15_21:58:02] [subTask]INFO:[../../facility/psamqtt-wangpan/mqttclient.C:328] CMqttClientTcpLink::processSend method being called
+[2017-03-15_21:58:03] [subTask]INFO:[../../task/psathread.C:40] ###select::result: 104: 2
+[2017-03-15_21:58:03] [subTask]INFO:[../../facility/psamqtt-wangpan/mqttclient.C:328] CMqttClientTcpLink::processSend method being called
+[2017-03-15_21:58:03] [subTask]INFO:[../../facility/psamqtt-wangpan/mqttclient.C:331] CMqttClientTcpLink::processSend method being called with data
+[2017-03-15_21:58:03] [subTask]INFO:[../../facility/psamqtt-wangpan/mqttclient.C:337] CMqttClientTcpLink::processSend after stateMachine
+[2017-03-15_21:58:03] [subTask]INFO:[../../facility/psamqtt-wangpan/mqttclient.C:525] CMqttClientTcpLink::processRecv method being called
+[2017-03-15_21:58:03] [subTask]INFO:[../../facility/psamqtt-wangpan/mqttlink.C:317] CMqttLink::invokeService: Before calling protocolLogic:
+[2017-03-15_21:58:03] [subTask]INFO:[../../facility/psamqtt-wangpan/mqttclient.C:598] CMqttClientTcpLink::protocolLogic before calling sendToTask
+[2017-03-15_21:58:03] [subTask]INFO:[../../facility/psamqtt-wangpan/mqttlink.C:319] CMqttLink::invokeService: after calling protocolLogic:
+[2017-03-15_21:58:03] [subTask]ERROR:[statemachine.C:242] invalid timerKey: 12
+[2017-03-15_21:58:03] [subTask]INFO:[../../task/psathread.C:40] ###select::result: 104: 1
+[2017-03-15_21:58:03] [subTask]INFO:[../../facility/psamqtt-wangpan/mqttclient.C:328] CMqttClientTcpLink::processSend method being called

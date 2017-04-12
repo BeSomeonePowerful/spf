@@ -1,0 +1,420 @@
+[2017-03-15_21:52:37] INFO:[comserv/env.C:585] TEnv: Open config file ./etc/PsaTCPTest_config.xml ...
+[2017-03-15_21:52:37] INFO:[comserv/env.C:594]  Try to load common config...
+[2017-03-15_21:52:37] INFO:[comserv/env.C:399] Try to load Kernal env...
+[2017-03-15_21:52:37] INFO:[framemng.C:85] FrameMng: Kernal env: 
+ TEnv env:
+  logType         = 3
+  logLevel        = 7
+  logToSyslog     = 0
+  syslogTaskID    = 0
+ TDBEnv env:
+DBList: 
+TKernalEnv env:
+  logType         = 3
+  logLevel        = 7
+ SC env:
+  SCIP            = 127.0.0.1
+  SCPORT          = 8088
+  HB              = 100
+ Process env:
+  TaskIP = 1004 ; TaskName = subSelfTask ; TaskType = 4 ; ThreadNum = 1 ; TaskDll =  
+  TaskIP = 1003 ; TaskName = idleTask ; TaskType = 4 ; ThreadNum = 1 ; TaskDll =  
+  TaskIP = 1002 ; TaskName = clientAppTask ; TaskType = 4 ; ThreadNum = 1 ; TaskDll =  
+  TaskIP = 1001 ; TaskName = serverAppTask ; TaskType = 4 ; ThreadNum = 1 ; TaskDll =  
+ 
+[2017-03-15_21:52:37] INFO:[task/abstracttask.C:42]  Init Task: 
+
+[2017-03-15_21:52:37] INFO:[task/abstracttask.C:43]    taskId(logAddr): 1004
+[2017-03-15_21:52:37] INFO:[task/abstracttask.C:44]    hostId(phyAddr): 1
+[2017-03-15_21:52:37] INFO:[task/abstracttask.C:45]    instId: 1
+[2017-03-15_21:52:37] INFO:[comserv/env.C:585] TEnv: Open config file ./etc/PsaTCPTest_config.xml ...
+[2017-03-15_21:52:37] INFO:[comserv/env.C:594]  Try to load common config...
+[2017-03-15_21:52:37] INFO:[comserv/env.C:284] Try to load Task env....
+[2017-03-15_21:52:37] INFO:[task/abstracttask.C:58]  Task env: TEnv env:
+  logType         = 3
+  logLevel        = 7
+  logToSyslog     = 0
+  syslogTaskID    = 0
+ TDBEnv env:
+DBList: 
+TTaskEnv env:
+  logType		   = 3
+  logLevel 	   = 7
+ Task env:
+  TaskID 		   = 1004
+  TaskType		   = 4
+  TaskName		   = subSelfTask
+
+[2017-03-15_21:52:37] INFO:[framemng.C:164] FrameMng: Init taskid=1004, instid=1, taskname=subSelfTask !
+[2017-03-15_21:52:37] INFO:[task/abstracttask.C:42]  Init Task: 
+
+[2017-03-15_21:52:37] INFO:[task/abstracttask.C:43]    taskId(logAddr): 1003
+[2017-03-15_21:52:37] INFO:[task/abstracttask.C:44]    hostId(phyAddr): 1
+[2017-03-15_21:52:37] INFO:[task/abstracttask.C:45]    instId: 2
+[2017-03-15_21:52:37] INFO:[comserv/env.C:585] TEnv: Open config file ./etc/PsaTCPTest_config.xml ...
+[2017-03-15_21:52:37] INFO:[comserv/env.C:594]  Try to load common config...
+[2017-03-15_21:52:37] INFO:[comserv/env.C:284] Try to load Task env....
+[2017-03-15_21:52:37] INFO:[task/abstracttask.C:58]  Task env: TEnv env:
+  logType         = 3
+  logLevel        = 7
+  logToSyslog     = 0
+  syslogTaskID    = 0
+ TDBEnv env:
+DBList: 
+TTaskEnv env:
+  logType		   = 3
+  logLevel 	   = 7
+ Task env:
+  TaskID 		   = 1003
+  TaskType		   = 4
+  TaskName		   = idleTask
+
+[2017-03-15_21:52:37] INFO:[idletask.C:20] IdleTask::onInit method being called
+[2017-03-15_21:52:37] INFO:[framemng.C:164] FrameMng: Init taskid=1003, instid=2, taskname=idleTask !
+[2017-03-15_21:52:37] INFO:[task/abstracttask.C:42]  Init Task: 
+
+[2017-03-15_21:52:37] INFO:[task/abstracttask.C:43]    taskId(logAddr): 1002
+[2017-03-15_21:52:37] INFO:[task/abstracttask.C:44]    hostId(phyAddr): 1
+[2017-03-15_21:52:37] INFO:[task/abstracttask.C:45]    instId: 3
+[2017-03-15_21:52:37] INFO:[comserv/env.C:585] TEnv: Open config file ./etc/PsaTCPTest_config.xml ...
+[2017-03-15_21:52:37] INFO:[comserv/env.C:594]  Try to load common config...
+[2017-03-15_21:52:37] INFO:[comserv/env.C:284] Try to load Task env....
+[2017-03-15_21:52:37] INFO:[task/abstracttask.C:58]  Task env: TEnv env:
+  logType         = 3
+  logLevel        = 7
+  logToSyslog     = 0
+  syslogTaskID    = 0
+ TDBEnv env:
+DBList: 
+TTaskEnv env:
+  logType		   = 3
+  logLevel 	   = 7
+ Task env:
+  TaskID 		   = 1002
+  TaskType		   = 4
+  TaskName		   = clientAppTask
+
+[2017-03-15_21:52:37] INFO:[framemng.C:164] FrameMng: Init taskid=1002, instid=3, taskname=clientAppTask !
+[2017-03-15_21:52:37] INFO:[task/abstracttask.C:42]  Init Task: 
+
+[2017-03-15_21:52:37] INFO:[task/abstracttask.C:43]    taskId(logAddr): 1001
+[2017-03-15_21:52:37] INFO:[task/abstracttask.C:44]    hostId(phyAddr): 1
+[2017-03-15_21:52:37] INFO:[task/abstracttask.C:45]    instId: 4
+[2017-03-15_21:52:37] INFO:[comserv/env.C:585] TEnv: Open config file ./etc/PsaTCPTest_config.xml ...
+[2017-03-15_21:52:37] INFO:[comserv/env.C:594]  Try to load common config...
+[2017-03-15_21:52:37] INFO:[comserv/env.C:284] Try to load Task env....
+[2017-03-15_21:52:37] INFO:[task/abstracttask.C:58]  Task env: TEnv env:
+  logType         = 3
+  logLevel        = 7
+  logToSyslog     = 0
+  syslogTaskID    = 0
+ TDBEnv env:
+DBList: 
+TTaskEnv env:
+  logType		   = 3
+  logLevel 	   = 7
+ Task env:
+  TaskID 		   = 1001
+  TaskType		   = 4
+  TaskName		   = serverAppTask
+
+[2017-03-15_21:52:37] INFO:[framemng.C:164] FrameMng: Init taskid=1001, instid=4, taskname=serverAppTask !
+[2017-03-15_21:52:37] INFO:[task/abstracttask.C:42]  Init Task: 
+
+[2017-03-15_21:52:37] INFO:[task/abstracttask.C:43]    taskId(logAddr): 104
+[2017-03-15_21:52:37] INFO:[task/abstracttask.C:44]    hostId(phyAddr): 1
+[2017-03-15_21:52:37] INFO:[task/abstracttask.C:45]    instId: 5
+[2017-03-15_21:52:37] INFO:[comserv/env.C:585] TEnv: Open config file ./etc/PsaTCPTest_config.xml ...
+[2017-03-15_21:52:37] INFO:[comserv/env.C:594]  Try to load common config...
+[2017-03-15_21:52:37] INFO:[comserv/env.C:284] Try to load Task env....
+[2017-03-15_21:52:37] INFO:[task/abstracttask.C:58]  Task env: TEnv env:
+  logType         = 3
+  logLevel        = 7
+  logToSyslog     = 0
+  syslogTaskID    = 0
+ TDBEnv env:
+DBList: 
+TTaskEnv env:
+  logType		   = 3
+  logLevel 	   = 7
+ Task env:
+  TaskID 		   = 104
+  TaskType		   = 5
+  TaskName		   = subTask
+
+[2017-03-15_21:52:37] INFO:[subtask.C:39] remoteIp = 127.0.0.1,remotePort = 9002...
+[2017-03-15_21:52:37] INFO:[subtask.C:41] clientName = subTask,userName = zhang,password = hello456,keepalive = 3
+[2017-03-15_21:52:37] INFO:[framemng.C:144] FrameMng: Init psaid=104, instid=5, psaname=subTask !
+[2017-03-15_21:52:37] INFO:[task/abstracttask.C:42]  Init Task: 
+
+[2017-03-15_21:52:37] INFO:[task/abstracttask.C:43]    taskId(logAddr): 102
+[2017-03-15_21:52:37] INFO:[task/abstracttask.C:44]    hostId(phyAddr): 1
+[2017-03-15_21:52:37] INFO:[task/abstracttask.C:45]    instId: 6
+[2017-03-15_21:52:37] INFO:[comserv/env.C:585] TEnv: Open config file ./etc/PsaTCPTest_config.xml ...
+[2017-03-15_21:52:37] INFO:[comserv/env.C:594]  Try to load common config...
+[2017-03-15_21:52:37] INFO:[comserv/env.C:284] Try to load Task env....
+[2017-03-15_21:52:37] INFO:[task/abstracttask.C:58]  Task env: TEnv env:
+  logType         = 3
+  logLevel        = 7
+  logToSyslog     = 0
+  syslogTaskID    = 0
+ TDBEnv env:
+DBList: 
+TTaskEnv env:
+  logType		   = 3
+  logLevel 	   = 7
+ Task env:
+  TaskID 		   = 102
+  TaskType		   = 5
+  TaskName		   = clientPsaTask
+
+[2017-03-15_21:52:37] INFO:[mqttclienttask.C:39] remoteIp = 127.0.0.1,remotePort = 9002...
+[2017-03-15_21:52:37] INFO:[mqttclienttask.C:41] clientName = clientPsaTask,userName = wang,password = hello123,keepalive = 3
+[2017-03-15_21:52:37] INFO:[framemng.C:144] FrameMng: Init psaid=102, instid=6, psaname=clientPsaTask !
+[2017-03-15_21:52:37] INFO:[task/abstracttask.C:42]  Init Task: 
+
+[2017-03-15_21:52:37] INFO:[task/abstracttask.C:43]    taskId(logAddr): 101
+[2017-03-15_21:52:37] INFO:[task/abstracttask.C:44]    hostId(phyAddr): 1
+[2017-03-15_21:52:37] INFO:[task/abstracttask.C:45]    instId: 7
+[2017-03-15_21:52:37] INFO:[comserv/env.C:585] TEnv: Open config file ./etc/PsaTCPTest_config.xml ...
+[2017-03-15_21:52:37] INFO:[comserv/env.C:594]  Try to load common config...
+[2017-03-15_21:52:37] INFO:[comserv/env.C:284] Try to load Task env....
+[2017-03-15_21:52:37] INFO:[task/abstracttask.C:58]  Task env: TEnv env:
+  logType         = 3
+  logLevel        = 7
+  logToSyslog     = 0
+  syslogTaskID    = 0
+ TDBEnv env:
+DBList: 
+TTaskEnv env:
+  logType		   = 3
+  logLevel 	   = 7
+ Task env:
+  TaskID 		   = 101
+  TaskType		   = 5
+  TaskName		   = serverPsaTask
+
+[2017-03-15_21:52:37] INFO:[mqttservertask.C:18] MqttServerTask::onInit method being called
+[2017-03-15_21:52:37] INFO:[mqttservertask.C:31] localIP: 127.0.0.1,localPort: 9002
+[2017-03-15_21:52:37] INFO:[comserv/socket.C:437] Openning server(127.0.0.1:9002) success. wait fd is 3
+[2017-03-15_21:52:37] INFO:[framemng.C:144] FrameMng: Init psaid=101, instid=7, psaname=serverPsaTask !
+[2017-03-15_21:52:37] INFO:[framemng.C:188] FrameMng: Bind command server! port=8088
+[2017-03-15_21:52:37] INFO:[framemng.C:206] FrameMng: Starting ......
+[2017-03-15_21:52:37] INFO:[framemng.C:299] FrameMng: init task ok: taskid=1001, instid=4
+[2017-03-15_21:52:37] INFO:[framemng.C:299] FrameMng: init task ok: taskid=1003, instid=2
+[2017-03-15_21:52:37] INFO:[framemng.C:299] FrameMng: init task ok: taskid=1002, instid=3
+[2017-03-15_21:52:37] INFO:[framemng.C:299] FrameMng: init task ok: taskid=1004, instid=1
+[2017-03-15_21:52:37] INFO:[framemng.C:299] FrameMng: init task ok: taskid=1, instid=0
+[2017-03-15_21:52:37] INFO:[framemng.C:299] FrameMng: init task ok: taskid=104, instid=5
+[2017-03-15_21:52:37] INFO:[framemng.C:299] FrameMng: init task ok: taskid=101, instid=7
+[2017-03-15_21:52:37] INFO:[framemng.C:299] FrameMng: init task ok: taskid=102, instid=6
+[2017-03-15_21:57:52] INFO:[comserv/env.C:585] TEnv: Open config file ./etc/PsaTCPTest_config.xml ...
+[2017-03-15_21:57:52] INFO:[comserv/env.C:594]  Try to load common config...
+[2017-03-15_21:57:52] INFO:[comserv/env.C:399] Try to load Kernal env...
+[2017-03-15_21:57:52] INFO:[framemng.C:85] FrameMng: Kernal env: 
+ TEnv env:
+  logType         = 3
+  logLevel        = 7
+  logToSyslog     = 0
+  syslogTaskID    = 0
+ TDBEnv env:
+DBList: 
+TKernalEnv env:
+  logType         = 3
+  logLevel        = 7
+ SC env:
+  SCIP            = 127.0.0.1
+  SCPORT          = 8088
+  HB              = 100
+ Process env:
+  TaskIP = 1004 ; TaskName = subSelfTask ; TaskType = 4 ; ThreadNum = 1 ; TaskDll =  
+  TaskIP = 1003 ; TaskName = idleTask ; TaskType = 4 ; ThreadNum = 1 ; TaskDll =  
+  TaskIP = 1002 ; TaskName = clientAppTask ; TaskType = 4 ; ThreadNum = 1 ; TaskDll =  
+  TaskIP = 1001 ; TaskName = serverAppTask ; TaskType = 4 ; ThreadNum = 1 ; TaskDll =  
+ 
+[2017-03-15_21:57:52] INFO:[task/abstracttask.C:42]  Init Task: 
+
+[2017-03-15_21:57:52] INFO:[task/abstracttask.C:43]    taskId(logAddr): 1004
+[2017-03-15_21:57:52] INFO:[task/abstracttask.C:44]    hostId(phyAddr): 1
+[2017-03-15_21:57:52] INFO:[task/abstracttask.C:45]    instId: 1
+[2017-03-15_21:57:52] INFO:[comserv/env.C:585] TEnv: Open config file ./etc/PsaTCPTest_config.xml ...
+[2017-03-15_21:57:52] INFO:[comserv/env.C:594]  Try to load common config...
+[2017-03-15_21:57:52] INFO:[comserv/env.C:284] Try to load Task env....
+[2017-03-15_21:57:52] INFO:[task/abstracttask.C:58]  Task env: TEnv env:
+  logType         = 3
+  logLevel        = 7
+  logToSyslog     = 0
+  syslogTaskID    = 0
+ TDBEnv env:
+DBList: 
+TTaskEnv env:
+  logType		   = 3
+  logLevel 	   = 7
+ Task env:
+  TaskID 		   = 1004
+  TaskType		   = 4
+  TaskName		   = subSelfTask
+
+[2017-03-15_21:57:52] INFO:[framemng.C:164] FrameMng: Init taskid=1004, instid=1, taskname=subSelfTask !
+[2017-03-15_21:57:52] INFO:[task/abstracttask.C:42]  Init Task: 
+
+[2017-03-15_21:57:52] INFO:[task/abstracttask.C:43]    taskId(logAddr): 1003
+[2017-03-15_21:57:52] INFO:[task/abstracttask.C:44]    hostId(phyAddr): 1
+[2017-03-15_21:57:52] INFO:[task/abstracttask.C:45]    instId: 2
+[2017-03-15_21:57:52] INFO:[comserv/env.C:585] TEnv: Open config file ./etc/PsaTCPTest_config.xml ...
+[2017-03-15_21:57:52] INFO:[comserv/env.C:594]  Try to load common config...
+[2017-03-15_21:57:52] INFO:[comserv/env.C:284] Try to load Task env....
+[2017-03-15_21:57:52] INFO:[task/abstracttask.C:58]  Task env: TEnv env:
+  logType         = 3
+  logLevel        = 7
+  logToSyslog     = 0
+  syslogTaskID    = 0
+ TDBEnv env:
+DBList: 
+TTaskEnv env:
+  logType		   = 3
+  logLevel 	   = 7
+ Task env:
+  TaskID 		   = 1003
+  TaskType		   = 4
+  TaskName		   = idleTask
+
+[2017-03-15_21:57:52] INFO:[idletask.C:20] IdleTask::onInit method being called
+[2017-03-15_21:57:52] INFO:[framemng.C:164] FrameMng: Init taskid=1003, instid=2, taskname=idleTask !
+[2017-03-15_21:57:52] INFO:[task/abstracttask.C:42]  Init Task: 
+
+[2017-03-15_21:57:52] INFO:[task/abstracttask.C:43]    taskId(logAddr): 1002
+[2017-03-15_21:57:52] INFO:[task/abstracttask.C:44]    hostId(phyAddr): 1
+[2017-03-15_21:57:52] INFO:[task/abstracttask.C:45]    instId: 3
+[2017-03-15_21:57:52] INFO:[comserv/env.C:585] TEnv: Open config file ./etc/PsaTCPTest_config.xml ...
+[2017-03-15_21:57:52] INFO:[comserv/env.C:594]  Try to load common config...
+[2017-03-15_21:57:52] INFO:[comserv/env.C:284] Try to load Task env....
+[2017-03-15_21:57:52] INFO:[task/abstracttask.C:58]  Task env: TEnv env:
+  logType         = 3
+  logLevel        = 7
+  logToSyslog     = 0
+  syslogTaskID    = 0
+ TDBEnv env:
+DBList: 
+TTaskEnv env:
+  logType		   = 3
+  logLevel 	   = 7
+ Task env:
+  TaskID 		   = 1002
+  TaskType		   = 4
+  TaskName		   = clientAppTask
+
+[2017-03-15_21:57:52] INFO:[framemng.C:164] FrameMng: Init taskid=1002, instid=3, taskname=clientAppTask !
+[2017-03-15_21:57:52] INFO:[task/abstracttask.C:42]  Init Task: 
+
+[2017-03-15_21:57:52] INFO:[task/abstracttask.C:43]    taskId(logAddr): 1001
+[2017-03-15_21:57:52] INFO:[task/abstracttask.C:44]    hostId(phyAddr): 1
+[2017-03-15_21:57:52] INFO:[task/abstracttask.C:45]    instId: 4
+[2017-03-15_21:57:52] INFO:[comserv/env.C:585] TEnv: Open config file ./etc/PsaTCPTest_config.xml ...
+[2017-03-15_21:57:52] INFO:[comserv/env.C:594]  Try to load common config...
+[2017-03-15_21:57:52] INFO:[comserv/env.C:284] Try to load Task env....
+[2017-03-15_21:57:52] INFO:[task/abstracttask.C:58]  Task env: TEnv env:
+  logType         = 3
+  logLevel        = 7
+  logToSyslog     = 0
+  syslogTaskID    = 0
+ TDBEnv env:
+DBList: 
+TTaskEnv env:
+  logType		   = 3
+  logLevel 	   = 7
+ Task env:
+  TaskID 		   = 1001
+  TaskType		   = 4
+  TaskName		   = serverAppTask
+
+[2017-03-15_21:57:52] INFO:[framemng.C:164] FrameMng: Init taskid=1001, instid=4, taskname=serverAppTask !
+[2017-03-15_21:57:52] INFO:[task/abstracttask.C:42]  Init Task: 
+
+[2017-03-15_21:57:52] INFO:[task/abstracttask.C:43]    taskId(logAddr): 104
+[2017-03-15_21:57:52] INFO:[task/abstracttask.C:44]    hostId(phyAddr): 1
+[2017-03-15_21:57:52] INFO:[task/abstracttask.C:45]    instId: 5
+[2017-03-15_21:57:52] INFO:[comserv/env.C:585] TEnv: Open config file ./etc/PsaTCPTest_config.xml ...
+[2017-03-15_21:57:52] INFO:[comserv/env.C:594]  Try to load common config...
+[2017-03-15_21:57:52] INFO:[comserv/env.C:284] Try to load Task env....
+[2017-03-15_21:57:52] INFO:[task/abstracttask.C:58]  Task env: TEnv env:
+  logType         = 3
+  logLevel        = 7
+  logToSyslog     = 0
+  syslogTaskID    = 0
+ TDBEnv env:
+DBList: 
+TTaskEnv env:
+  logType		   = 3
+  logLevel 	   = 7
+ Task env:
+  TaskID 		   = 104
+  TaskType		   = 5
+  TaskName		   = subTask
+
+[2017-03-15_21:57:52] INFO:[subtask.C:39] remoteIp = 127.0.0.1,remotePort = 9002...
+[2017-03-15_21:57:52] INFO:[subtask.C:41] clientName = subTask,userName = zhang,password = hello456,keepalive = 3
+[2017-03-15_21:57:52] INFO:[framemng.C:144] FrameMng: Init psaid=104, instid=5, psaname=subTask !
+[2017-03-15_21:57:52] INFO:[task/abstracttask.C:42]  Init Task: 
+
+[2017-03-15_21:57:52] INFO:[task/abstracttask.C:43]    taskId(logAddr): 102
+[2017-03-15_21:57:52] INFO:[task/abstracttask.C:44]    hostId(phyAddr): 1
+[2017-03-15_21:57:52] INFO:[task/abstracttask.C:45]    instId: 6
+[2017-03-15_21:57:52] INFO:[comserv/env.C:585] TEnv: Open config file ./etc/PsaTCPTest_config.xml ...
+[2017-03-15_21:57:52] INFO:[comserv/env.C:594]  Try to load common config...
+[2017-03-15_21:57:52] INFO:[comserv/env.C:284] Try to load Task env....
+[2017-03-15_21:57:52] INFO:[task/abstracttask.C:58]  Task env: TEnv env:
+  logType         = 3
+  logLevel        = 7
+  logToSyslog     = 0
+  syslogTaskID    = 0
+ TDBEnv env:
+DBList: 
+TTaskEnv env:
+  logType		   = 3
+  logLevel 	   = 7
+ Task env:
+  TaskID 		   = 102
+  TaskType		   = 5
+  TaskName		   = clientPsaTask
+
+[2017-03-15_21:57:52] INFO:[mqttclienttask.C:39] remoteIp = 127.0.0.1,remotePort = 9002...
+[2017-03-15_21:57:52] INFO:[mqttclienttask.C:41] clientName = clientPsaTask,userName = wang,password = hello123,keepalive = 3
+[2017-03-15_21:57:52] INFO:[framemng.C:144] FrameMng: Init psaid=102, instid=6, psaname=clientPsaTask !
+[2017-03-15_21:57:52] INFO:[task/abstracttask.C:42]  Init Task: 
+
+[2017-03-15_21:57:52] INFO:[task/abstracttask.C:43]    taskId(logAddr): 101
+[2017-03-15_21:57:52] INFO:[task/abstracttask.C:44]    hostId(phyAddr): 1
+[2017-03-15_21:57:52] INFO:[task/abstracttask.C:45]    instId: 7
+[2017-03-15_21:57:52] INFO:[comserv/env.C:585] TEnv: Open config file ./etc/PsaTCPTest_config.xml ...
+[2017-03-15_21:57:52] INFO:[comserv/env.C:594]  Try to load common config...
+[2017-03-15_21:57:52] INFO:[comserv/env.C:284] Try to load Task env....
+[2017-03-15_21:57:52] INFO:[task/abstracttask.C:58]  Task env: TEnv env:
+  logType         = 3
+  logLevel        = 7
+  logToSyslog     = 0
+  syslogTaskID    = 0
+ TDBEnv env:
+DBList: 
+TTaskEnv env:
+  logType		   = 3
+  logLevel 	   = 7
+ Task env:
+  TaskID 		   = 101
+  TaskType		   = 5
+  TaskName		   = serverPsaTask
+
+[2017-03-15_21:57:52] INFO:[mqttservertask.C:18] MqttServerTask::onInit method being called
+[2017-03-15_21:57:52] INFO:[mqttservertask.C:31] localIP: 127.0.0.1,localPort: 9002
+[2017-03-15_21:57:52] INFO:[comserv/socket.C:437] Openning server(127.0.0.1:9002) success. wait fd is 3
+[2017-03-15_21:57:52] INFO:[framemng.C:144] FrameMng: Init psaid=101, instid=7, psaname=serverPsaTask !
+[2017-03-15_21:57:52] INFO:[framemng.C:188] FrameMng: Bind command server! port=8088
+[2017-03-15_21:57:52] INFO:[framemng.C:206] FrameMng: Starting ......
+[2017-03-15_21:57:52] INFO:[framemng.C:299] FrameMng: init task ok: taskid=1001, instid=4
+[2017-03-15_21:57:52] INFO:[framemng.C:299] FrameMng: init task ok: taskid=1003, instid=2
+[2017-03-15_21:57:52] INFO:[framemng.C:299] FrameMng: init task ok: taskid=1002, instid=3
+[2017-03-15_21:57:52] INFO:[framemng.C:299] FrameMng: init task ok: taskid=1004, instid=1
+[2017-03-15_21:57:52] INFO:[framemng.C:299] FrameMng: init task ok: taskid=1, instid=0
+[2017-03-15_21:57:52] INFO:[framemng.C:299] FrameMng: init task ok: taskid=102, instid=6
+[2017-03-15_21:57:52] INFO:[framemng.C:299] FrameMng: init task ok: taskid=101, instid=7
+[2017-03-15_21:57:52] INFO:[framemng.C:299] FrameMng: init task ok: taskid=104, instid=5

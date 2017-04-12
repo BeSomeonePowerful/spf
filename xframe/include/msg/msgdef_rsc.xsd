@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- this xsd file is created automatically by msgcreator tool( msc ). -->
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified" attributeFormDefault="unqualified">
+<xs:include schemaLocation="msgdatadef.xsd"/>
+	<xs:element name="TRscMsgHdr">
+	    <xs:annotation>
+	        <xs:documentation> TRscMsgHdr ctrl msg definition</xs:documentation>
+	    </xs:annotation>
+	    <xs:complexType>
+	        <xs:sequence>
+	            <xs:element name="code" type="xs:unsignedInt"   />
+	            <xs:element name="ruri" type="xs:string"   />
+	            <xs:element name="consumer" type="xs:string"   />
+	            <xs:element name="producer" type="xs:string"   />
+	            <xs:element name="host"    >
+	                <xs:complexType>
+	                    <xs:sequence>
+	                        <xs:element ref="TURI"/>
+	                    </xs:sequence>
+	                </xs:complexType>
+	            </xs:element>
+	            <xs:element name="rid" type="xs:string"   />
+	        </xs:sequence>
+	    </xs:complexType>
+	</xs:element>
+	<xs:element name="TRscMsgBody">
+	    <xs:annotation>
+	        <xs:documentation> TRscMsgBody msg body definition</xs:documentation>
+	    </xs:annotation>
+	    <xs:complexType>
+	        <xs:sequence>
+	            <xs:element name="rsc" type="xs:string"   />
+	        </xs:sequence>
+	    </xs:complexType>
+	</xs:element>
+</xs:schema>
+
